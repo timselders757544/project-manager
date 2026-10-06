@@ -14,6 +14,9 @@ text{fill:#1f3550;font-family:"Kalam","Comic Sans MS","Chalkboard SE",cursive}
         </marker>
       </defs>
 
+      <!-- Data-collector: buiten de projectmanager -->
+      <rect x="10" y="6" width="616" height="284" rx="14" style="fill:none;stroke:#6b7d8f;stroke-width:2;stroke-dasharray:8 6"/>
+      <text class="sm" x="24" y="28" style="fill:#6b7d8f;font-weight:700">Data-collector · buiten de projectmanager</text>
       <!-- Invoer -->
       <rect class="box" x="24" y="40" width="210" height="230" rx="10"/>
       <text class="lbl" x="40" y="70">Relevant voor</text>
@@ -30,11 +33,12 @@ text{fill:#1f3550;font-family:"Kalam","Comic Sans MS","Chalkboard SE",cursive}
       <rect class="box" x="284" y="125" width="120" height="60" rx="10"/>
       <text class="lbl" x="344" y="161" text-anchor="middle">Collect</text>
 
-      <!-- Postbus + dossiers -->
+      <!-- Externe postbus -->
       <path class="arrow" d="M406,155 L446,155"/>
       <rect class="box" x="450" y="112" width="160" height="86" rx="10"/>
-      <text class="lbl" x="530" y="148" text-anchor="middle">Postbus</text>
-      <text class="lbl" x="530" y="176" text-anchor="middle">+ dossiers</text>
+      <text class="lbl" x="530" y="142" text-anchor="middle">Postbus</text>
+      <text class="sm" x="530" y="166" text-anchor="middle">data-items met</text>
+      <text class="sm" x="530" y="186" text-anchor="middle">projectlabel</text>
 
       <!-- Analyse-wolk -->
       <g>
@@ -45,8 +49,11 @@ text{fill:#1f3550;font-family:"Kalam","Comic Sans MS","Chalkboard SE",cursive}
         <circle class="cloud" cx="710" cy="190" r="36"/>
         <ellipse cx="790" cy="172" rx="100" ry="46" style="fill: #e4efe9"/>
         <text class="lbl" x="790" y="180" text-anchor="middle" style="font-size:24px">Analyse</text>
+        <text class="xs" x="790" y="202" text-anchor="middle">met dossiers</text>
       </g>
       <path class="arrow" d="M612,155 L680,160"/>
+      <text class="xs" x="634" y="146">haalt op</text>
+      <text class="lbl" x="976" y="330" text-anchor="end" style="fill:#6b7d8f;font-size:16px">Projectmanager</text>
 
       <!-- Doel en buitenwereld -->
       <text class="lbl acc" x="680" y="40">Goal</text>
