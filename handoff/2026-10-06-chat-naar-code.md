@@ -1,6 +1,6 @@
 # Handoff 2026-10-06: brug tussen chat en code
 
-Status: open
+Verwerkt op 2026-10-06: gelezen en aan Tim bevestigd; handoff-test.md weggehaald op Tims ja.
 
 ## Wat we in chat besloten
 - Chat en Claude Code werken samen via deze repo. Chat kan via de Filesystem-connector rechtstreeks in deze map schrijven, op de MacBook van Tim.
