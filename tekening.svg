@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1088" viewBox="0 0 1120 1088" role="img" aria-label="Containertekening van de projectassistent">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="902" viewBox="0 0 1280 902" role="img" aria-label="Containertekening van de projectassistent">
 <style>text{fill:#1f3550;font-family:"Kalam","Comic Sans MS","Chalkboard SE",cursive}
 .lbl{font-weight:700;font-size:20px}.sm{font-size:16px}.xs{font-size:14px;fill:#6b7d8f}
 .clbl{font-size:15px;font-weight:700;fill:#6b7d8f}
@@ -15,25 +15,40 @@
 .group{fill:none;stroke:#6b7d8f;stroke-width:1}
 .container{fill:none;stroke:#6b7d8f;stroke-width:2;stroke-dasharray:8 6}
 .arrow{stroke:#1f3550;stroke-width:2;fill:none;marker-end:url(#pijl)}.both{marker-start:url(#pijl)}.tip{fill:#1f3550}</style>
-<rect width="1120" height="1088" fill="#fbfcfb"/>
+<rect width="1280" height="902" fill="#fbfcfb"/>
 <defs><marker id="pijl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="tip"/></marker></defs>
-<rect class="b vast" x="200" y="16" width="720" height="72" rx="0"/>
+<rect class="b vast" x="200" y="16" width="350" height="72" rx="0"/>
 <text class="lbl" x="214" y="42">Goal</text>
-<text class="sm" x="214" y="66">waar het project naartoe moet · van Tim</text>
+<text class="sm" x="214" y="66">waar het project naartoe moet</text>
+<text class="xs" text-anchor="end" x="538" y="41">altijd</text>
+<rect class="b vast" x="570" y="16" width="350" height="72" rx="0"/>
+<text class="lbl" x="584" y="42">Foundation</text>
+<text class="sm" x="584" y="66">procesplan · projectbeschrijving</text>
 <text class="xs" text-anchor="end" x="908" y="41">altijd</text>
-<path class="arrow" d="M560,88 L560,102"/>
-<rect class="b tim" x="935" y="16" width="165" height="802" rx="8"/>
-<text class="lbl" x="949" y="42">Tim</text>
-<text class="sm" x="949" y="66">geeft het doel</text>
-<path class="arrow" d="M935,52 L922,52"/>
-<text class="sm" x="949" y="238">krijgt 1× per dag:</text>
-<text class="lbl" x="949" y="260">dit ligt klaar</text>
-<text class="sm" x="949" y="290">streept en</text>
-<text class="sm" x="949" y="311">verstuurt</text>
-<path class="arrow" d="M913,256 L933,256"/>
-<text class="sm" x="949" y="604">besluit en</text>
-<text class="sm" x="949" y="625">corrigeert</text>
-<path class="arrow" d="M935,614 L922,614"/>
+<path class="arrow" d="M375,88 L375,102"/>
+<path class="arrow" d="M745,88 L745,102"/>
+<rect class="b out" x="940" y="104" width="140" height="714" rx="8"/>
+<text class="lbl" x="954" y="130">Dashboard</text>
+<text class="sm" x="954" y="154">Tims venster</text>
+<text class="sm" x="954" y="250">• wat klaarligt</text>
+<text class="sm" x="954" y="478">• de stand</text>
+<text class="sm" x="954" y="560">• de meter:</text>
+<text class="sm" x="966" y="581">wat lag klaar,</text>
+<text class="sm" x="966" y="602">wat deed Tim</text>
+<path class="arrow" d="M913,256 L938,256"/>
+<path class="arrow" d="M913,472 L938,472"/>
+<rect class="b tim" x="1100" y="16" width="160" height="802" rx="8"/>
+<text class="lbl" x="1114" y="42">Tim</text>
+<text class="sm" x="1114" y="66">geeft doel en</text>
+<text class="sm" x="1114" y="87">fundament</text>
+<path class="arrow" d="M1100,52 L922,52"/>
+<text class="sm" x="1114" y="238">krijgt 1× per dag:</text>
+<text class="lbl" x="1114" y="260">dit ligt klaar</text>
+<path class="arrow" d="M1082,256 L1098,256"/>
+<text class="sm" x="1114" y="625">streept, verstuurt,</text>
+<text class="sm" x="1114" y="646">besluit, corrigeert</text>
+<path class="arrow" d="M1100,664 L1082,664"/>
+<path class="arrow" d="M940,664 L922,664"/>
 <rect class="b flow" x="20" y="104" width="155" height="110" rx="24"/>
 <text class="lbl" x="34" y="130">Wekker</text>
 <text class="sm" x="34" y="154">nieuw data-item</text>
@@ -122,26 +137,19 @@
 <rect class="b fast" x="216" y="762" width="688" height="44" rx="8"/>
 <text class="lbl" x="230" y="788">Logboek</text>
 <text class="sm" x="312" y="788">elke ronde: wat hij las, zag, bijwerkte en opleverde, of: niets</text>
-<rect class="b vast" x="300" y="840" width="800" height="72" rx="0"/>
-<text class="lbl" x="314" y="866">Foundation</text>
-<text class="sm" x="314" y="890">procesplan · projectbeschrijving</text>
-<rect class="b out" x="20" y="932" width="1080" height="72" rx="8"/>
-<text class="lbl" x="34" y="958">Dashboard</text>
-<text class="sm" x="34" y="982">Tims venster op de stand · meter: wat lag er klaar, en wat deed Tim ermee</text>
-<path class="arrow" d="M260,818 L260,930"/>
-<rect class="b vast" x="20" y="1028" width="26" height="18" rx="0"/>
-<text class="sm" x="54" y="1043">Vast</text>
-<rect class="b slow" x="170" y="1028" width="26" height="18" rx="4"/>
-<text class="sm" x="204" y="1043">Langzaam</text>
-<rect class="b fast" x="320" y="1028" width="26" height="18" rx="4"/>
-<text class="sm" x="354" y="1043">Snel</text>
-<rect class="b flow" x="470" y="1028" width="26" height="18" rx="9"/>
-<text class="sm" x="504" y="1043">Stroom</text>
-<rect class="b think" x="620" y="1028" width="26" height="18" rx="4"/>
-<text class="sm" x="654" y="1043">Denkwerk</text>
-<rect class="b out" x="770" y="1028" width="26" height="18" rx="4"/>
-<text class="sm" x="804" y="1043">Uitkomst</text>
-<rect class="b arch" x="920" y="1028" width="26" height="18" rx="4"/>
-<text class="sm" x="954" y="1043">Archief</text>
-<text class="xs" x="20" y="1074">Kleur: hoe snel het verandert. Rechts in een inputvak: wanneer hij het leest (altijd of als nodig).</text>
+<rect class="b vast" x="20" y="842" width="26" height="18" rx="0"/>
+<text class="sm" x="54" y="857">Vast</text>
+<rect class="b slow" x="170" y="842" width="26" height="18" rx="4"/>
+<text class="sm" x="204" y="857">Langzaam</text>
+<rect class="b fast" x="320" y="842" width="26" height="18" rx="4"/>
+<text class="sm" x="354" y="857">Snel</text>
+<rect class="b flow" x="470" y="842" width="26" height="18" rx="9"/>
+<text class="sm" x="504" y="857">Stroom</text>
+<rect class="b think" x="620" y="842" width="26" height="18" rx="4"/>
+<text class="sm" x="654" y="857">Denkwerk</text>
+<rect class="b out" x="770" y="842" width="26" height="18" rx="4"/>
+<text class="sm" x="804" y="857">Uitkomst</text>
+<rect class="b arch" x="920" y="842" width="26" height="18" rx="4"/>
+<text class="sm" x="954" y="857">Archief</text>
+<text class="xs" x="20" y="888">Kleur: hoe snel het verandert. Rechts in een inputvak: wanneer hij het leest (altijd of als nodig).</text>
 </svg>
