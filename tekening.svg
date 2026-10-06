@@ -34,21 +34,22 @@
 <text class="sm" x="949" y="604">besluit en</text>
 <text class="sm" x="949" y="625">corrigeert</text>
 <path class="arrow" d="M935,614 L922,614"/>
-<rect class="b flow" x="20" y="104" width="155" height="90" rx="24"/>
+<rect class="b flow" x="20" y="104" width="155" height="110" rx="24"/>
 <text class="lbl" x="34" y="130">Wekker</text>
 <text class="sm" x="34" y="154">nieuw data-item</text>
-<text class="sm" x="34" y="175">dagelijkse ronde</text>
+<text class="sm" x="34" y="175">elke dag: terug</text>
+<text class="sm" x="34" y="196">vanaf de mijlpaal</text>
 <path class="arrow" d="M177,149 L214,149"/>
-<rect class="b flow" x="20" y="206" width="155" height="110" rx="24"/>
-<text class="lbl" x="34" y="232">Postbus</text>
-<text class="sm" x="34" y="256">data-items met</text>
-<text class="sm" x="34" y="277">projectlabel;</text>
-<text class="sm" x="34" y="298">hij haalt ze op</text>
-<path class="arrow" d="M177,234 L214,234"/>
-<rect class="b flow" x="20" y="340" width="155" height="72" rx="24"/>
-<text class="lbl" x="34" y="366">Out there</text>
-<text class="sm" x="34" y="390">wat buiten speelt</text>
-<path class="arrow" d="M177,376 L198,376"/>
+<rect class="b flow" x="20" y="226" width="155" height="110" rx="24"/>
+<text class="lbl" x="34" y="252">Postbus</text>
+<text class="sm" x="34" y="276">data-items met</text>
+<text class="sm" x="34" y="297">projectlabel;</text>
+<text class="sm" x="34" y="318">hij haalt ze op</text>
+<path class="arrow" d="M177,270 L214,270"/>
+<rect class="b flow" x="20" y="348" width="155" height="72" rx="24"/>
+<text class="lbl" x="34" y="374">Out there</text>
+<text class="sm" x="34" y="398">wat buiten speelt</text>
+<path class="arrow" d="M177,384 L198,384"/>
 <rect class="container" x="200" y="104" width="720" height="714" rx="12"/>
 <text class="clbl" x="216" y="124">Projectassistent, elke ronde:</text>
 <rect class="loop" x="216" y="134" width="688" height="30" rx="15"/>
@@ -109,23 +110,24 @@
 <text class="sm" x="706" y="252">concept-mails</text>
 <text class="sm" x="706" y="273">documenten · rapporten</text>
 <text class="sm" x="706" y="294">herinneringen</text>
-<rect class="b think" x="468" y="404" width="184" height="136" rx="8"/>
-<text class="lbl" x="482" y="430">Analyse</text>
-<text class="sm" x="482" y="454">post naast de rest:</text>
-<text class="sm" x="482" y="475">1. wat verandert?</text>
-<text class="sm" x="482" y="496">2. verschil met plan?</text>
-<text class="sm" x="482" y="517">3. wat blijft uit?</text>
-<path class="arrow" d="M437,472 L466,472"/>
-<path class="arrow" d="M654,472 L683,472"/>
+<rect class="b think" x="460" y="394" width="200" height="157" rx="8"/>
+<text class="lbl" x="474" y="420">Analyse</text>
+<text class="sm" x="474" y="444">post naast de rest:</text>
+<text class="sm" x="474" y="465">1. wat verandert?</text>
+<text class="sm" x="474" y="486">2. verschil met plan?</text>
+<text class="sm" x="474" y="507">3. wat blijft uit?</text>
+<text class="sm" x="474" y="528">4. wat maak ik zelf af?</text>
+<path class="arrow" d="M437,472 L458,472"/>
+<path class="arrow" d="M662,472 L683,472"/>
 <rect class="b fast" x="216" y="762" width="688" height="44" rx="8"/>
 <text class="lbl" x="230" y="788">Logboek</text>
-<text class="sm" x="312" y="788">elke ronde: wat hij las, zag, bijwerkte en deed, met de bron</text>
+<text class="sm" x="312" y="788">elke ronde: wat hij las, zag, bijwerkte en opleverde, of: niets</text>
 <rect class="b vast" x="300" y="840" width="800" height="72" rx="0"/>
 <text class="lbl" x="314" y="866">Foundation</text>
 <text class="sm" x="314" y="890">procesplan · projectbeschrijving</text>
 <rect class="b out" x="20" y="932" width="1080" height="72" rx="8"/>
 <text class="lbl" x="34" y="958">Dashboard</text>
-<text class="sm" x="34" y="982">Tims venster op de stand</text>
+<text class="sm" x="34" y="982">Tims venster op de stand · meter: wat lag er klaar, en wat deed Tim ermee</text>
 <path class="arrow" d="M260,818 L260,930"/>
 <rect class="b vast" x="20" y="1028" width="26" height="18" rx="0"/>
 <text class="sm" x="54" y="1043">Vast</text>
