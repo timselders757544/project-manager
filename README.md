@@ -31,7 +31,7 @@ Elke ronde begint bij een trigger: een nieuw data-item, of elke dag terug vanaf 
 - **Lijsten van het project**:
   - de draden;
   - het doel en het plan;
-  - de stand: de besluiten, open en genomen, met de reden; beloftes van anderen zijn to-do's;
+  - de besluiten, open en genomen, met de reden (dit blokje heette eerst Stand; beloftes van anderen zijn to-do's);
   - het programmavoorstel;
   - de mensen en partijen, met wat ze willen en hoe hun naam ook geschreven of verstaan wordt.
 - **Bij elke regel**: bron en datum, feit of aanname, en bij wie de bal ligt.
@@ -54,7 +54,6 @@ Er komt alleen bij; "niets gevonden" is ook een regel. Het verwijst naar de lijs
 - Bevat de postbus de inhoud of alleen een verwijzing?
 - Wie leegt de twijfelbak?
 - Krijgt geld een eigen lijst, of is het een draad?
-- Wat Stand nog is zonder de beloftes. Lezing van de assistent: hoe het ervoor staat per onderwerp (besluiten, wat open ligt, wat stilligt, aannames); de to-do's zijn per persoon met een datum.
 - Waar Tims eigen handelingen (strepen, versturen, corrigeren) in het logboek komen.
 - Mag hij in de dossiers op Desk schrijven, of legt hij een bijwerking klaar?
 - De namen van de mappen in de repo.

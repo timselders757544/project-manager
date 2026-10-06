@@ -92,11 +92,11 @@
 <text class="lbl" x="706" y="344">Plan</text>
 <text class="sm" x="706" y="368">nieuwe versie</text>
 <rect class="b fast" x="216" y="390" width="212" height="64" rx="8"/>
-<text class="lbl" x="230" y="416">Stand</text>
-<text class="sm" x="230" y="440">besluiten</text>
+<text class="lbl" x="230" y="416">Besluiten</text>
+<text class="sm" x="230" y="440">genomen en open</text>
 <text class="xs" text-anchor="end" x="416" y="440">altijd</text>
 <rect class="b fast" x="692" y="390" width="212" height="64" rx="8"/>
-<text class="lbl" x="706" y="416">Stand</text>
+<text class="lbl" x="706" y="416">Besluiten</text>
 <text class="sm" x="706" y="440">nieuwe versie</text>
 <rect class="b slow" x="216" y="462" width="212" height="64" rx="8"/>
 <text class="lbl" x="230" y="488">Programmavoorstel</text>
