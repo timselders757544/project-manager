@@ -49,6 +49,15 @@ Er komt alleen bij; "niets gevonden" is ook een regel. Het verwijst naar de lijs
 - Het dashboard is een viewer op alle onderdelen, een HTML-pagina die de repo leest; Tim hoeft GitHub niet in.
 - Buiten de repo: de postbus (data-items liggen bij de data-collector), de dossiers (blijven op Desk; hij leest ze en werkt ze bij) en Tims to-do's (in Todoist; een wijziging daar komt als data-item via de post binnen).
 
+## Spelregels
+Overgenomen uit Tims tekst "Inrichting op GitHub" van 06-10-2026.
+1. **Eén schrijver per bestand.** Per bestand staat vast wie erin schrijft (de assistent, Tim). Een controle na elke ronde weigert als de assistent een bestand raakt dat niet van hem is, zoals goal en foundation.
+2. **Inhoud en machinerie gescheiden.** De project-repo bevat alleen inhoud: plan, besluiten, logboek. Protocol, viewer-bouwer en controles staan één keer apart (de engine); elk project noemt welke versie hij gebruikt.
+3. **Een voorstel is een bestand met een status.** Wat klaarligt voor Tim is één bestand per voorstel, met de precieze wijziging en een status: open, ja, pas aan, nee, doorgevoerd. Tims antwoord wordt erin geschreven; een nee blijft staan met de reden, zodat het niet terugkomt. Bij ja verandert de volgende ronde het echte bestand en noemt de commit het voorstel en wie besloot.
+4. **Het protocol staat in de repo.** De trigger zegt alleen: volg het protocol. Alles wat een ronde moet doen staat in dat ene bestand; de werkwijze veranderen is een bestand veranderen, met geschiedenis.
+5. **Out there heeft een weekritme.** Eén keer per week naar buiten kijken, begrensd, met hooguit één voorstel.
+6. **Twee mensen bij de knoppen.** Alles hangt nu aan Tim; er is altijd een reserve die erbij kan. Dit is een afspraak, geen bouwpunt.
+
 ## Open
 - Mag Jev in de data-collector meekijken?
 - Bevat de postbus de inhoud of alleen een verwijzing?
