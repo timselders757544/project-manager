@@ -50,7 +50,7 @@
 <path class="arrow" d="M1100,664 L1082,664"/>
 <path class="arrow" d="M940,664 L922,664"/>
 <rect class="b flow" x="20" y="104" width="155" height="110" rx="24"/>
-<text class="lbl" x="34" y="130">Wekker</text>
+<text class="lbl" x="34" y="130">Trigger</text>
 <text class="sm" x="34" y="154">nieuw data-item</text>
 <text class="sm" x="34" y="175">elke dag: terug</text>
 <text class="sm" x="34" y="196">vanaf de mijlpaal</text>

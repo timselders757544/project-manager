@@ -10,7 +10,7 @@ Eerst Melk en Meer; daarna Visie op Noordeloos, JUMP en La Grange.
 - De bal ligt overal bij Tim.
 
 ## Wat hem proactief maakt
-Een wekker, een product dat bij die wekker hoort, en ruimte om het zonder Tim af te maken.
+Een trigger, een product dat bij die trigger hoort, en ruimte om het zonder Tim af te maken.
 - Maken mag altijd; versturen nooit zonder Tim.
 - Mist er een besluit, dan schrijft hij op zijn eigen advies door en markeert hij dat. Tim streept.
 - Eén keer per dag één bericht: dit ligt klaar.
