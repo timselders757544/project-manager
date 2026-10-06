@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660" role="img" aria-label="Schema van de projectassistent">
+      <style>
+text{fill:#1f3550;font-family:"Kalam","Comic Sans MS","Chalkboard SE",cursive}
+.box{fill:#fbfcfb;stroke:#1f3550;stroke-width:2}
+.lbl{font-weight:700;font-size:20px}.sm{font-size:16px}.xs{font-size:14px;fill:#6b7d8f}
+.arrow{stroke:#1f3550;stroke-width:2;fill:none;marker-end:url(#pijl)}
+.cloud{fill:#e4efe9;stroke:#1d7a5a;stroke-width:2}.acc{fill:#1d7a5a}
+.found{fill:#e4efe9;stroke:#1d7a5a;stroke-width:2}
+</style>
+<rect x="0" y="0" width="1000" height="660" fill="#fbfcfb"/>
+      <defs>
+        <marker id="pijl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" style="fill: #1f3550"/>
+        </marker>
+      </defs>
+
+      <!-- Invoer -->
+      <rect class="box" x="24" y="40" width="210" height="230" rx="10"/>
+      <text class="lbl" x="40" y="70">Relevant voor</text>
+      <text class="lbl" x="40" y="94">het project</text>
+      <text class="sm" x="44" y="128">• mail in / uit</text>
+      <text class="sm" x="44" y="156">• WhatsApp · Signal</text>
+      <text class="sm" x="58" y="176">· iMessage</text>
+      <text class="sm" x="44" y="204">• opnames</text>
+      <text class="sm" x="44" y="232">• documenten</text>
+      <text class="sm" x="44" y="258">• agenda</text>
+
+      <!-- Verzamelen -->
+      <path class="arrow" d="M236,155 L280,155"/>
+      <rect class="box" x="284" y="125" width="120" height="60" rx="10"/>
+      <text class="lbl" x="344" y="161" text-anchor="middle">Collect</text>
+
+      <!-- Postbus + dossiers -->
+      <path class="arrow" d="M406,155 L446,155"/>
+      <rect class="box" x="450" y="112" width="160" height="86" rx="10"/>
+      <text class="lbl" x="530" y="148" text-anchor="middle">Postbus</text>
+      <text class="lbl" x="530" y="176" text-anchor="middle">+ dossiers</text>
+
+      <!-- Analyse-wolk -->
+      <g>
+        <circle class="cloud" cx="745" cy="160" r="58"/>
+        <circle class="cloud" cx="810" cy="140" r="48"/>
+        <circle class="cloud" cx="860" cy="175" r="44"/>
+        <circle class="cloud" cx="800" cy="200" r="46"/>
+        <circle class="cloud" cx="710" cy="190" r="36"/>
+        <ellipse cx="790" cy="172" rx="100" ry="46" style="fill: #e4efe9"/>
+        <text class="lbl" x="790" y="180" text-anchor="middle" style="font-size:24px">Analyse</text>
+      </g>
+      <path class="arrow" d="M612,155 L680,160"/>
+
+      <!-- Doel en buitenwereld -->
+      <text class="lbl acc" x="680" y="40">Goal</text>
+      <path class="arrow" d="M705,48 L738,98"/>
+      <text class="lbl acc" x="890" y="40">Out there</text>
+      <path class="arrow" d="M915,50 L872,124"/>
+
+      <!-- Uitwaaieren -->
+      <path class="arrow" d="M720,226 C600,290 200,280 120,346"/>
+      <path class="arrow" d="M745,234 C640,300 380,290 312,346"/>
+      <path class="arrow" d="M780,246 C730,300 540,300 504,346"/>
+      <path class="arrow" d="M810,246 C790,300 710,310 696,346"/>
+      <path class="arrow" d="M850,214 C880,280 890,300 888,346"/>
+
+      <!-- Uitkomsten -->
+      <rect class="box" x="24" y="350" width="176" height="160" rx="10"/>
+      <text class="lbl" x="40" y="380">To-do</text>
+      <text class="sm" x="40" y="408">toewijzing:</text>
+      <text class="sm" x="40" y="432">→ Tim</text>
+      <text class="sm" x="40" y="456">→ anderen</text>
+      <text class="xs" x="40" y="490">+ reminder?</text>
+
+      <rect class="box" x="216" y="350" width="176" height="160" rx="10"/>
+      <text class="lbl" x="232" y="380">Vergelijking</text>
+      <text class="sm" x="232" y="408">Tims to-do's naast</text>
+      <text class="sm" x="232" y="432">die van privé</text>
+      <text class="sm" x="232" y="456">en andere</text>
+      <text class="sm" x="232" y="480">projecten</text>
+
+      <rect class="box" x="408" y="350" width="176" height="160" rx="10"/>
+      <text class="lbl" x="424" y="380">Redactie</text>
+      <text class="sm" x="424" y="408">programmavoorstel</text>
+      <text class="sm" x="424" y="440">V1 → V2 → V3</text>
+      <text class="xs" x="424" y="490">via eigen postbusje</text>
+
+      <rect class="box" x="600" y="350" width="176" height="160" rx="10"/>
+      <text class="lbl" x="616" y="380">Plan</text>
+      <text class="sm" x="616" y="408">milestones:</text>
+      <text class="sm" x="616" y="436">• 4 okt.</text>
+      <text class="sm" x="616" y="462">• 12 dec</text>
+      <text class="sm" x="630" y="484">bijeenkomst</text>
+
+      <rect class="box" x="792" y="350" width="184" height="160" rx="10" style="stroke: #1d7a5a; stroke-width: 3"/>
+      <text class="lbl" x="808" y="380">Dashboard</text>
+      <text class="sm" x="808" y="408">alles samen</text>
+      <text class="sm" x="808" y="432">in één blik</text>
+      <text class="xs" x="808" y="474">schuine tekst:</text>
+      <text class="xs" x="808" y="494">"opdrachtgevers"?</text>
+
+      <!-- Fundament -->
+      <rect class="found" x="24" y="560" width="952" height="70" rx="10"/>
+      <text class="lbl" x="500" y="592" text-anchor="middle">Foundation</text>
+      <text class="sm" x="500" y="616" text-anchor="middle">procesplan · projectbeschrijving</text>
+    </svg>

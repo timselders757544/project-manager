@@ -16,6 +16,8 @@ Een wekker, een product dat bij die wekker hoort, en ruimte om het zonder Tim af
 - Eén keer per dag één bericht: dit ligt klaar.
 
 ## Opbouw
+![Tims tekening van de projectassistent](tekening.svg)
+
 1. **Verzamelen en routeren**: de data-collector haalt alle bronnen op en legt elk stuk in de postbus van het project. Eerst vaste regels, daarna Jev, de rest naar een twijfelbak. Dit bouwt pilot-experiment-2.
 2. **Analyse**: bij elk stuk de vraag "wat verandert hierdoor?". Daarnaast elke dag een ronde: wat blijft uit, wat loopt achter op het plan?
 3. **Uitkomst**:
