@@ -1,122 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-label="Schema van de projectassistent">
-<style>
-text{fill:#1f3550;font-family:"Kalam","Comic Sans MS","Chalkboard SE",cursive}
-.box{fill:#fbfcfb;stroke:#1f3550;stroke-width:2}
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760" role="img" aria-label="Containertekening van de projectassistent">
+<style>text{fill:#1f3550;font-family:"Kalam","Comic Sans MS","Chalkboard SE",cursive}
 .lbl{font-weight:700;font-size:20px}.sm{font-size:16px}.xs{font-size:14px;fill:#6b7d8f}
-.arrow{stroke:#1f3550;stroke-width:2;fill:none;marker-end:url(#pijl)}
-.cloud{fill:#e4efe9;stroke:#1d7a5a;stroke-width:2}.cloudfill{fill:#e4efe9}.acc,.acc2{fill:#1d7a5a}
-.stand{fill:#fbfcfb;stroke:#1f3550;stroke-width:3}.goal{fill:#fbfcfb;stroke:#1d7a5a;stroke-width:3}
-.found{fill:#e4efe9;stroke:#1d7a5a;stroke-width:2}
-</style>
-<rect x="0" y="0" width="1000" height="700" fill="#fbfcfb"/>
-      <defs>
-        <marker id="pijl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-          <path d="M0,0 L10,5 L0,10 z" style="fill: #1f3550"/>
-        </marker>
-      </defs>
-
-      <!-- Bronnen van de stand -->
-      <rect class="box" x="24" y="70" width="200" height="90" rx="10"/>
-      <text class="lbl" x="40" y="100">Postbus</text>
-      <text class="sm" x="40" y="126">data-items met</text>
-      <text class="sm" x="40" y="148">projectlabel</text>
-
-      <rect class="box" x="24" y="180" width="200" height="70" rx="10"/>
-      <text class="lbl" x="40" y="210">Dossiers</text>
-      <text class="sm" x="40" y="236">wat het project bewaart</text>
-
-      <rect class="box" x="24" y="270" width="200" height="70" rx="10"/>
-      <text class="lbl" x="40" y="300">Topics</text>
-      <text class="sm" x="40" y="326">de lijnen van het project</text>
-
-      <path class="arrow" d="M226,115 L296,175"/>
-      <text class="xs" x="236" y="104">haalt op</text>
-      <path class="arrow" d="M226,215 L296,215"/>
-      <path class="arrow" d="M226,305 L296,255"/>
-
-      <!-- De stand -->
-      <rect class="stand" x="300" y="120" width="210" height="190" rx="12"/>
-      <text class="lbl" x="405" y="152" text-anchor="middle" style="font-size:24px">De stand</text>
-      <text class="sm" x="318" y="182">• doel en plan</text>
-      <text class="sm" x="318" y="204">• beloftes</text>
-      <text class="sm" x="318" y="226">• besluiten</text>
-      <text class="sm" x="318" y="248">• programmavoorstel</text>
-      <text class="sm" x="318" y="270">• mensen en partijen</text>
-      <text class="xs" x="318" y="296">per topic</text>
-
-      <!-- Tegen het licht -->
-      <path class="arrow" d="M560,190 L514,190"/>
-      <path class="arrow" d="M514,240 L560,240"/>
-      <text class="xs acc2" x="537" y="178" text-anchor="middle">licht</text>
-
-      <!-- Analyse-wolk -->
-      <g>
-        <circle class="cloud" cx="640" cy="170" r="60"/>
-        <circle class="cloud" cx="740" cy="140" r="62"/>
-        <circle class="cloud" cx="850" cy="160" r="58"/>
-        <circle class="cloud" cx="900" cy="230" r="52"/>
-        <circle class="cloud" cx="800" cy="290" r="56"/>
-        <circle class="cloud" cx="680" cy="285" r="54"/>
-        <circle class="cloud" cx="610" cy="235" r="48"/>
-        <ellipse cx="755" cy="218" rx="170" ry="92" class="cloudfill"/>
-        <text class="lbl" x="755" y="160" text-anchor="middle" style="font-size:22px">Analyse</text>
-        <text class="xs" x="755" y="182" text-anchor="middle">houdt de stand steeds tegen het licht</text>
-        <text class="sm" x="630" y="216">1. wat verandert hierdoor?</text>
-        <text class="sm" x="630" y="244">2. verschil met goal en plan</text>
-        <text class="sm" x="630" y="272">3. wat blijft uit?</text>
-      </g>
-
-      <!-- Goal en buitenwereld -->
-      <rect class="goal" x="700" y="14" width="110" height="50" rx="4"/>
-      <text class="lbl" x="755" y="46" text-anchor="middle">Goal</text>
-      <path class="arrow" d="M755,66 L755,82"/>
-      <text class="lbl acc" x="900" y="42" text-anchor="middle">Out there</text>
-      <path class="arrow" d="M900,52 L885,108"/>
-
-      <!-- Uitwaaieren -->
-      <path class="arrow" d="M640,320 C520,360 180,350 112,406"/>
-      <path class="arrow" d="M670,336 C580,370 360,370 304,406"/>
-      <path class="arrow" d="M720,344 C680,380 520,380 496,406"/>
-      <path class="arrow" d="M780,346 C760,380 700,384 688,406"/>
-      <path class="arrow" d="M860,320 C880,360 884,380 884,406"/>
-
-      <!-- Uitkomsten -->
-      <rect class="box" x="24" y="410" width="176" height="160" rx="10"/>
-      <text class="lbl" x="40" y="440">To-do</text>
-      <text class="sm" x="40" y="468">toewijzing:</text>
-      <text class="sm" x="40" y="492">→ Tim</text>
-      <text class="sm" x="40" y="516">→ anderen</text>
-      <text class="xs" x="40" y="550">+ reminder?</text>
-
-      <rect class="box" x="216" y="410" width="176" height="160" rx="10"/>
-      <text class="lbl" x="232" y="440">Vergelijking</text>
-      <text class="sm" x="232" y="468">Tims to-do's naast</text>
-      <text class="sm" x="232" y="492">die van privé</text>
-      <text class="sm" x="232" y="516">en andere</text>
-      <text class="sm" x="232" y="540">projecten</text>
-
-      <rect class="box" x="408" y="410" width="176" height="160" rx="10"/>
-      <text class="lbl" x="424" y="440">Redactie</text>
-      <text class="sm" x="424" y="468">programmavoorstel</text>
-      <text class="sm" x="424" y="500">V1 → V2 → V3</text>
-      <text class="xs" x="424" y="550">via eigen postbusje</text>
-
-      <rect class="box" x="600" y="410" width="176" height="160" rx="10"/>
-      <text class="lbl" x="616" y="440">Plan</text>
-      <text class="sm" x="616" y="468">milestones:</text>
-      <text class="sm" x="616" y="496">• 4 okt.</text>
-      <text class="sm" x="616" y="522">• 12 dec</text>
-      <text class="sm" x="630" y="544">bijeenkomst</text>
-
-      <rect class="box" x="792" y="410" width="184" height="160" rx="10" style="stroke: #1d7a5a; stroke-width: 3"/>
-      <text class="lbl" x="808" y="440">Dashboard</text>
-      <text class="sm" x="808" y="468">alles samen</text>
-      <text class="sm" x="808" y="492">in één blik</text>
-      <text class="xs" x="808" y="534">schuine tekst:</text>
-      <text class="xs" x="808" y="554">"opdrachtgevers"?</text>
-
-      <!-- Fundament -->
-      <rect class="found" x="24" y="610" width="952" height="70" rx="10"/>
-      <text class="lbl" x="500" y="642" text-anchor="middle">Foundation</text>
-      <text class="sm" x="500" y="666" text-anchor="middle">procesplan · projectbeschrijving</text>
+.clbl{font-size:15px;font-weight:700;fill:#6b7d8f}
+.box,.stand,.analyse,.top,.base,.dash{fill:#fbfcfb;stroke:#1f3550;stroke-width:2}
+.stand{stroke-width:3}.analyse{fill:#e4efe9;stroke:#1d7a5a}
+.top{stroke:#1d7a5a;stroke-width:3}.base{fill:#e4efe9;stroke:#1d7a5a}
+.dash{stroke:#1d7a5a;stroke-width:3}
+.container{fill:none;stroke:#6b7d8f;stroke-width:2;stroke-dasharray:8 6}
+.arrow{stroke:#1f3550;stroke-width:2;fill:none;marker-end:url(#pijl)}.tip{fill:#1f3550}</style>
+<rect width="1000" height="760" fill="#fbfcfb"/>
+<defs><marker id="pijl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="tip"/></marker></defs>
+<rect class="top" x="250" y="16" width="350" height="96" rx="8"/>
+<text class="lbl" x="264" y="42">Goal</text>
+<text class="sm" x="264" y="66">waar het project naartoe moet</text>
+<rect class="top" x="620" y="16" width="360" height="96" rx="8"/>
+<text class="lbl" x="634" y="42">Plan</text>
+<text class="sm" x="634" y="66">mijlpalen: 4 okt. · 12 dec bijeenkomst</text>
+<rect class="box" x="20" y="180" width="200" height="110" rx="8"/>
+<text class="lbl" x="34" y="206">Postbus</text>
+<text class="sm" x="34" y="230">data-items met</text>
+<text class="sm" x="34" y="251">projectlabel</text>
+<rect class="box" x="20" y="310" width="200" height="90" rx="8"/>
+<text class="lbl" x="34" y="336">Out there</text>
+<text class="sm" x="34" y="360">wat buiten speelt</text>
+<rect class="container" x="240" y="140" width="740" height="420" rx="12"/>
+<text class="clbl" x="256" y="162">Projectmanager</text>
+<rect class="stand" x="256" y="176" width="300" height="170" rx="8"/>
+<text class="lbl" x="270" y="202">De stand</text>
+<text class="sm" x="270" y="226">• doel en plan</text>
+<text class="sm" x="270" y="247">• beloftes</text>
+<text class="sm" x="270" y="268">• besluiten</text>
+<text class="sm" x="270" y="289">• programmavoorstel</text>
+<text class="sm" x="270" y="310">• mensen en partijen</text>
+<rect class="analyse" x="600" y="176" width="364" height="170" rx="8"/>
+<text class="lbl" x="614" y="202">Analyse</text>
+<text class="sm" x="614" y="226">houdt de stand tegen het licht:</text>
+<text class="sm" x="614" y="247">1. wat verandert hierdoor?</text>
+<text class="sm" x="614" y="268">2. verschil met goal en plan</text>
+<text class="sm" x="614" y="289">3. wat blijft uit?</text>
+<path class="arrow" d="M600,240 L560,240"/>
+<path class="arrow" d="M560,290 L600,290"/>
+<path class="arrow" d="M425,114 L425,174"/>
+<path class="arrow" d="M800,114 L800,174"/>
+<path class="arrow" d="M222,235 L254,235"/>
+<text class="xs" x="176" y="174">haalt op</text>
+<path class="arrow" d="M222,362 L620,362 L640,350"/>
+<text class="clbl" x="256" y="392">Uitkomsten: hij maakt ze zelf af, Tim streept</text>
+<rect class="box" x="256" y="404" width="230" height="140" rx="8"/>
+<text class="lbl" x="270" y="430">To-do</text>
+<text class="sm" x="270" y="454">→ Tim</text>
+<text class="sm" x="270" y="475">→ anderen</text>
+<text class="sm" x="270" y="496">+ reminder?</text>
+<rect class="box" x="500" y="404" width="230" height="140" rx="8"/>
+<text class="lbl" x="514" y="430">Vergelijking</text>
+<text class="sm" x="514" y="454">Tims to-do's naast</text>
+<text class="sm" x="514" y="475">privé en andere</text>
+<text class="sm" x="514" y="496">projecten</text>
+<rect class="box" x="744" y="404" width="220" height="140" rx="8"/>
+<text class="lbl" x="758" y="430">Redactie</text>
+<text class="sm" x="758" y="454">programmavoorstel</text>
+<text class="sm" x="758" y="475">V1 → V2 → V3</text>
+<path class="arrow" d="M782,346 L782,402"/>
+<path class="arrow" d="M615,346 L615,402"/>
+<path class="arrow" d="M440,346 L371,402"/>
+<rect class="base" x="20" y="580" width="460" height="72" rx="8"/>
+<text class="lbl" x="34" y="606">Dossiers</text>
+<text class="sm" x="34" y="630">wat het project bewaart</text>
+<rect class="base" x="520" y="580" width="460" height="72" rx="8"/>
+<text class="lbl" x="534" y="606">Foundation</text>
+<text class="sm" x="534" y="630">procesplan · projectbeschrijving</text>
+<path class="arrow" d="M230,578 L230,330 L254,330"/>
+<rect class="dash" x="20" y="672" width="960" height="72" rx="8"/>
+<text class="lbl" x="34" y="698">Dashboard</text>
+<text class="sm" x="34" y="722">het resultaat van al deze zaken in één blik</text>
+<path class="arrow" d="M500,562 L500,670"/>
 </svg>
