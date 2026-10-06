@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="992" viewBox="0 0 1280 992" role="img" aria-label="Containertekening van de projectassistent">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="920" viewBox="0 0 1280 920" role="img" aria-label="Containertekening van de projectassistent">
 <style>text{fill:#1f3550;font-family:"Kalam","Comic Sans MS","Chalkboard SE",cursive}
 .lbl{font-weight:700;font-size:20px}.sm{font-size:16px}.xs{font-size:14px;fill:#6b7d8f}
 .clbl{font-size:15px;font-weight:700;fill:#6b7d8f}
@@ -17,7 +17,7 @@
 .group{fill:none;stroke:#6b7d8f;stroke-width:1}
 .container{fill:none;stroke:#6b7d8f;stroke-width:2;stroke-dasharray:8 6}
 .arrow{stroke:#1f3550;stroke-width:2;fill:none;marker-end:url(#pijl)}.both{marker-start:url(#pijl)}.tip{fill:#1f3550}</style>
-<rect width="1280" height="992" fill="#fbfcfb"/>
+<rect width="1280" height="920" fill="#fbfcfb"/>
 <defs><marker id="pijl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="tip"/></marker></defs>
 <rect class="b vast" x="200" y="16" width="350" height="72" rx="0"/>
 <text class="lbl" x="214" y="42">Goal</text>
@@ -29,7 +29,7 @@
 <text class="xs" text-anchor="end" x="908" y="41">altijd</text>
 <path class="arrow" d="M375,88 L375,102"/>
 <path class="arrow" d="M745,88 L745,102"/>
-<rect class="b out" x="940" y="104" width="140" height="804" rx="8"/>
+<rect class="b out" x="940" y="104" width="140" height="732" rx="8"/>
 <text class="lbl" x="954" y="130">Dashboard</text>
 <text class="sm" x="954" y="154">Tims venster</text>
 <text class="sm" x="954" y="250">• wat klaarligt</text>
@@ -39,7 +39,7 @@
 <text class="sm" x="966" y="602">wat deed Tim</text>
 <path class="arrow" d="M913,256 L938,256"/>
 <path class="arrow" d="M913,472 L938,472"/>
-<rect class="b tim" x="1100" y="16" width="160" height="892" rx="8"/>
+<rect class="b tim" x="1100" y="16" width="160" height="820" rx="8"/>
 <text class="lbl" x="1114" y="42">Tim</text>
 <text class="sm" x="1114" y="66">geeft doel en</text>
 <text class="sm" x="1114" y="87">fundament</text>
@@ -67,14 +67,21 @@
 <text class="lbl" x="34" y="374">Out there</text>
 <text class="sm" x="34" y="398">wat buiten speelt</text>
 <path class="arrow" d="M177,384 L198,384"/>
-<rect class="container" x="200" y="104" width="720" height="804" rx="12"/>
-<text class="clbl" x="216" y="124">Projectassistent, elke ronde:</text>
+<rect class="b arch" x="20" y="432" width="155" height="110" rx="8"/>
+<text class="lbl" x="34" y="458">Dossiers</text>
+<text class="sm" x="34" y="482">archief op Desk;</text>
+<text class="sm" x="34" y="503">leest als nodig,</text>
+<text class="sm" x="34" y="524">werkt bij</text>
+<path class="arrow" d="M177,472 L198,472"/>
+<path class="arrow" d="M200,504 L179,504"/>
+<rect class="container" x="200" y="104" width="720" height="732" rx="12"/>
+<text class="clbl" x="216" y="124">Projectassistent, op GitHub. Elke ronde:</text>
 <rect class="loop" x="216" y="134" width="688" height="30" rx="15"/>
 <text class="sm" x="232" y="155">wakker → lezen → analyseren → bijwerken → acties → rapporteren</text>
 <text class="clbl" x="216" y="186">Input: wat hij leest</text>
 <text class="clbl" x="692" y="186">Output: wat hij bijwerkt</text>
-<rect class="group" x="209" y="194" width="226" height="556" rx="10"/>
-<rect class="group" x="685" y="194" width="226" height="556" rx="10"/>
+<rect class="group" x="209" y="194" width="226" height="484" rx="10"/>
+<rect class="group" x="685" y="194" width="226" height="484" rx="10"/>
 <rect class="b slow" x="216" y="318" width="212" height="64" rx="8"/>
 <text class="lbl" x="230" y="344">Plan</text>
 <text class="sm" x="230" y="368">mijlpalen</text>
@@ -110,13 +117,6 @@
 <rect class="b fast" x="692" y="606" width="212" height="64" rx="8"/>
 <text class="lbl" x="706" y="632">To-do's</text>
 <text class="sm" x="706" y="656">bijgewerkt</text>
-<rect class="b arch" x="216" y="678" width="212" height="64" rx="8"/>
-<text class="lbl" x="230" y="704">Dossiers</text>
-<text class="sm" x="230" y="728">het archief</text>
-<text class="xs" text-anchor="end" x="416" y="728">als nodig</text>
-<rect class="b arch" x="692" y="678" width="212" height="64" rx="8"/>
-<text class="lbl" x="706" y="704">Dossiers</text>
-<text class="sm" x="706" y="728">bijgewerkt</text>
 <rect class="b flow" x="216" y="202" width="212" height="108" rx="24"/>
 <text class="lbl" x="230" y="228">Nieuwe post</text>
 <text class="sm" x="230" y="252">data-items</text>
@@ -136,38 +136,38 @@
 <text class="sm" x="474" y="528">4. wat maak ik zelf af?</text>
 <path class="arrow" d="M437,472 L458,472"/>
 <path class="arrow" d="M662,472 L683,472"/>
-<rect class="b fast" x="216" y="762" width="688" height="134" rx="8"/>
-<text class="lbl" x="230" y="788">Logboek</text>
-<text class="sm" x="312" y="788">één regel per ronde · er komt alleen bij · niets gevonden is ook een regel</text>
-<rect class="cel" x="230" y="800" width="125" height="58" rx="6"/>
-<text class="vak" x="240" y="823">1 Trigger</text>
-<text class="xs" x="240" y="845">waardoor</text>
-<rect class="cel" x="363.75" y="800" width="125" height="58" rx="6"/>
-<text class="vak" x="373.75" y="823">2 Gelezen</text>
-<text class="xs" x="373.75" y="845">welke data-items</text>
-<rect class="cel" x="497.5" y="800" width="125" height="58" rx="6"/>
-<text class="vak" x="507.5" y="823">3 Gezien</text>
-<text class="xs" x="507.5" y="845">de vier vragen</text>
-<rect class="cel" x="631.25" y="800" width="125" height="58" rx="6"/>
-<text class="vak" x="641.25" y="823">4 Bijgewerkt</text>
-<text class="xs" x="641.25" y="845">welke regel waar</text>
-<rect class="cel" x="765" y="800" width="125" height="58" rx="6"/>
-<text class="vak" x="775" y="823">5 Klaargelegd</text>
-<text class="xs" x="775" y="845">wat, voor Tim</text>
-<text class="sm" x="230" y="882">verwijst naar de lijsten, kopieert niet · de volgende ronde begint bij de laatste regel</text>
-<rect class="b vast" x="20" y="932" width="26" height="18" rx="0"/>
-<text class="sm" x="54" y="947">Vast</text>
-<rect class="b slow" x="170" y="932" width="26" height="18" rx="4"/>
-<text class="sm" x="204" y="947">Langzaam</text>
-<rect class="b fast" x="320" y="932" width="26" height="18" rx="4"/>
-<text class="sm" x="354" y="947">Snel</text>
-<rect class="b flow" x="470" y="932" width="26" height="18" rx="9"/>
-<text class="sm" x="504" y="947">Stroom</text>
-<rect class="b think" x="620" y="932" width="26" height="18" rx="4"/>
-<text class="sm" x="654" y="947">Denkwerk</text>
-<rect class="b out" x="770" y="932" width="26" height="18" rx="4"/>
-<text class="sm" x="804" y="947">Uitkomst</text>
-<rect class="b arch" x="920" y="932" width="26" height="18" rx="4"/>
-<text class="sm" x="954" y="947">Archief</text>
-<text class="xs" x="20" y="978">Kleur: hoe snel het verandert. Rechts in een inputvak: wanneer hij het leest (altijd of als nodig).</text>
+<rect class="b fast" x="216" y="690" width="688" height="134" rx="8"/>
+<text class="lbl" x="230" y="716">Logboek</text>
+<text class="sm" x="312" y="716">één regel per ronde · er komt alleen bij · niets gevonden is ook een regel</text>
+<rect class="cel" x="230" y="728" width="125" height="58" rx="6"/>
+<text class="vak" x="240" y="751">1 Trigger</text>
+<text class="xs" x="240" y="773">waardoor</text>
+<rect class="cel" x="363.75" y="728" width="125" height="58" rx="6"/>
+<text class="vak" x="373.75" y="751">2 Gelezen</text>
+<text class="xs" x="373.75" y="773">welke data-items</text>
+<rect class="cel" x="497.5" y="728" width="125" height="58" rx="6"/>
+<text class="vak" x="507.5" y="751">3 Gezien</text>
+<text class="xs" x="507.5" y="773">de vier vragen</text>
+<rect class="cel" x="631.25" y="728" width="125" height="58" rx="6"/>
+<text class="vak" x="641.25" y="751">4 Bijgewerkt</text>
+<text class="xs" x="641.25" y="773">welke regel waar</text>
+<rect class="cel" x="765" y="728" width="125" height="58" rx="6"/>
+<text class="vak" x="775" y="751">5 Klaargelegd</text>
+<text class="xs" x="775" y="773">wat, voor Tim</text>
+<text class="sm" x="230" y="810">verwijst naar de lijsten, kopieert niet · de volgende ronde begint bij de laatste regel</text>
+<rect class="b vast" x="20" y="860" width="26" height="18" rx="0"/>
+<text class="sm" x="54" y="875">Vast</text>
+<rect class="b slow" x="170" y="860" width="26" height="18" rx="4"/>
+<text class="sm" x="204" y="875">Langzaam</text>
+<rect class="b fast" x="320" y="860" width="26" height="18" rx="4"/>
+<text class="sm" x="354" y="875">Snel</text>
+<rect class="b flow" x="470" y="860" width="26" height="18" rx="9"/>
+<text class="sm" x="504" y="875">Stroom</text>
+<rect class="b think" x="620" y="860" width="26" height="18" rx="4"/>
+<text class="sm" x="654" y="875">Denkwerk</text>
+<rect class="b out" x="770" y="860" width="26" height="18" rx="4"/>
+<text class="sm" x="804" y="875">Uitkomst</text>
+<rect class="b arch" x="920" y="860" width="26" height="18" rx="4"/>
+<text class="sm" x="954" y="875">Archief</text>
+<text class="xs" x="20" y="906">Kleur: hoe snel het verandert. Rechts in een inputvak: wanneer hij het leest (altijd of als nodig).</text>
 </svg>
