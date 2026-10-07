@@ -47,7 +47,7 @@ Er komt alleen bij; "niets gevonden" is ook een regel. Het verwijst naar de lijs
 - Eén ronde is één commit; de diff is wat de analyse veranderde.
 - Geen pull requests. De snelle lijsten (stand, to-do's, mensen, logboek) wijzigt hij direct. Voor het plan en het programmavoorstel legt hij een voorstel klaar; de wijziging komt pas na Tims ja. Goal en foundation zijn alleen van Tim.
 - Het dashboard is een viewer op alle onderdelen, een HTML-pagina die de repo leest; Tim hoeft GitHub niet in.
-- Buiten de repo: de postbus (data-items liggen bij de data-collector), de dossiers (blijven op Desk; hij leest ze en werkt ze bij) en Tims to-do's (in Todoist; een wijziging daar komt als data-item via de post binnen).
+- Buiten de repo: de postbus (data-items liggen bij de data-collector), de dossiers (blijven op Desk; hij leest ze en werkt ze bij, voorlopig via een voorstel en Tims ja: trede 1, zie B29) en Tims to-do's (in Todoist; een wijziging daar komt als data-item via de post binnen).
 
 ## De projectenmap
 Eén map met projecten. De machinerie staat één keer, in `engine/`; elk project is een repo met alleen inhoud. De namen zijn werknamen (zie Open).
