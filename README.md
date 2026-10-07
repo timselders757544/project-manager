@@ -49,6 +49,40 @@ Er komt alleen bij; "niets gevonden" is ook een regel. Het verwijst naar de lijs
 - Het dashboard is een viewer op alle onderdelen, een HTML-pagina die de repo leest; Tim hoeft GitHub niet in.
 - Buiten de repo: de postbus (data-items liggen bij de data-collector), de dossiers (blijven op Desk; hij leest ze en werkt ze bij) en Tims to-do's (in Todoist; een wijziging daar komt als data-item via de post binnen).
 
+## De projectenmap
+Eén map met projecten. De machinerie staat één keer, in `engine/`; elk project is een repo met alleen inhoud. De namen zijn werknamen (zie Open).
+
+```
+projects/
+├── engine/                 één keer, voor alle projecten; eigen repo
+│   ├── PROTOCOL.md         hoe een ronde gaat: kringloop, de vier vragen, logboek, wat mag
+│   ├── skills/             per onderdeel één: hoe het gevuld wordt, in welke vorm, wat er niet in hoort
+│   │   ├── new-project.md  kopieert de template, vraagt Tim doel, fundament en sturing
+│   │   └── decisions.md · plan.md · people.md · todos.md · proposal.md · proposals.md · log.md · analysis.md
+│   ├── template/           het lege project: elke map en elk bestand, met kort wat erin hoort
+│   ├── bin/
+│   │   ├── round.sh        start een verse sessie: "volg engine/PROTOCOL.md voor projects/<naam>"
+│   │   ├── check.sh        de controle na de ronde: schrijver per bestand en de vorm uit de skill
+│   │   └── build-viewer.sh bouwt het dashboard (HTML) uit de projectrepo
+│   ├── viewer/             het sjabloon van de HTML-pagina
+│   └── VERSION
+├── melk-en-meer/           één repo per project, geen script
+│   ├── goal.md             van Tim
+│   ├── foundation/         van Tim: procesplan, projectbeschrijving
+│   ├── steering.md         van Tim: de projectsturing (postbusadres, ritme, mijlpaal, bronnen)
+│   ├── plan.md · decisions.md · people.md · todos.md · log.md
+│   ├── proposal/           het programmavoorstel, per versie
+│   ├── proposals/          wat klaarligt voor Tim: één bestand per voorstel, met status
+│   └── engine-version
+├── la-grange/              zelfde opbouw
+└── visie-op-noordeloos/
+```
+
+- **Protocol, skills, template.** Het protocol zegt wanneer hij een onderdeel bijwerkt, de skill zegt hoe. Een nieuw project is de template kopiëren; het protocol begint bij een project zonder logboekregel met de skill `new-project`.
+- **Projectsturing.** Wat per project anders is staat in `steering.md`; het protocol leest dat als eerste.
+- **Trigger.** Een wekker buiten de repo, die alleen `engine/bin/round.sh <project>` aanroept: de data-collector na een nieuw data-item, en een dagwekker die per project een ronde start op het ritme uit `steering.md`.
+- **Wie schrijft.** `goal.md`, `foundation/` en `steering.md` zijn van Tim; de rest van de assistent; in `proposals/` maakt hij het bestand en schrijft Tim de status. `check.sh` kijkt het na.
+
 ## Spelregels
 Overgenomen uit Tims tekst "Inrichting op GitHub" van 06-10-2026.
 1. **Eén schrijver per bestand.** Per bestand staat vast wie erin schrijft (de assistent, Tim). Een controle na elke ronde weigert als de assistent een bestand raakt dat niet van hem is, zoals goal en foundation.
@@ -65,6 +99,7 @@ Overgenomen uit Tims tekst "Inrichting op GitHub" van 06-10-2026.
 - Krijgt geld een eigen lijst, of is het een draad?
 - Waar Tims eigen handelingen (strepen, versturen, corrigeren) in het logboek komen.
 - Mag hij in de dossiers op Desk schrijven, of legt hij een bijwerking klaar?
-- De namen van de mappen in de repo.
+- De namen van de mappen in de repo (de projectenmap hierboven gebruikt werknamen).
+- Is de engine een eigen repo of een map naast de projecten? Draait de wekker op de Mini of als routine in claude.ai?
 - Leest hij Foundation altijd of als nodig?
 - Volgende stap: de stand van Melk en Meer in deze vorm uitschrijven.
