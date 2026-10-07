@@ -46,6 +46,7 @@ Vorm van een regel:
 - **B34 · 07-10 · Tim.** Goal gaat in Foundation: één map `foundation/` met `goal.md`, `process.md`, de projectbeschrijving en wat er later bij komt, en in de tekening één Foundation-box. `steering.md` heet `instructions.md` en blijft buiten `foundation/`: dat zijn instellingen voor wekker en postbus, geen inhoud. Beide zijn alleen van Tim. *Waarom:* alles wat van Tim is staat op één plek, en de controle heeft één regel nodig. *Bron:* gesprek 07-10, "Ja, steering wordt instructions.md" (op de vraag of Goal in de Foundation-box gaat, door Tim geopperd: "Misschien is zelf beter een Foundation box te maken met goal, proces, etc.").
 - **B35 · 07-10 · Tim.** De engine is een eigen repo met versies; elk project noemt in `engine-version` welke versie het gebruikt en stapt over wanneer het zover is. *Waarom:* een nieuwe werkwijze gaat eerst op één project, en terugzetten raakt alleen dat project. *Bron:* gesprek 07-10, "Eigen repo" (was O08).
 - **B36 · 07-10 · Tim.** De wekker draait op de Mini, via `613-round-starter`: de ene klok die elke minuut tikt en de rondes start van kaarten met een `round:`-regel. De projectassistent krijgt dus geen eigen wekker maar een `round:`-regel. Die klok kent geen events: "na een nieuw data-item" wordt een ronde die op een vast ritme de postbus nakijkt. *Waarom:* daar zijn de data-collector en Desk bereikbaar, en er bestaat al één klok voor het hele huis. *Bron:* gesprek 07-10, "Draait op mini. Er is daar een service voor: iets met rond starter? Bevestig dit." Gemeten: klok actief, interval 60 seconden, laatste ronde 07-10 08:17 (was O09).
+- **B37 · 07-10 · Tim.** Elke ronde leest hij Foundation eerst en legt hij alles daarnaast. *Waarom:* Foundation is kort, verandert zelden en is de maatstaf voor de analyse en voor elk voorstel; zo valt een stuk dat het project ongemerkt een andere kant op trekt op. *Bron:* gesprek 07-10, "Altijd" (was O10).
 
 ## Open
 
@@ -58,7 +59,7 @@ Vorm van een regel:
 - **O07 · De namen van de mappen in de repo.** *Bal bij:* Tim. *Bekend:* de projectenmap in de README gebruikt werknamen; `project-plan/` en `preparations/` liggen vast (B32), net als `planning.md` en `foundation/process.md` (B33).
 - ~~**O08 · Is de engine een eigen repo of een map naast de projecten?** *Bal bij:* Tim. *Advies:* een eigen repo, met een versie per project.~~ Besloten: B35.
 - ~~**O09 · Draait de wekker op de Mini of als routine in claude.ai?**~~ Besloten: B36.
-- **O10 · Leest hij Foundation altijd of als nodig?** *Bal bij:* Tim. *Bekend:* de tekening zegt nu altijd.
+- ~~**O10 · Leest hij Foundation altijd of als nodig?**~~ Besloten: B37.
 - **O11 · Blijft het woord "draden"?** *Bal bij:* Tim. *Bekend:* de README noemt het nog bij de lijsten van het project.
 - **O12 · Wie is de reserve bij de knoppen (B20, regel 6)?** *Bal bij:* Tim. *Advies:* iemand die Melk en Meer al kent; minimaal nodig: leesrecht op de repo en de viewer, en één regel uitleg hoe je de wekker uitzet (chat, 07-10).
 - **O13 · Proef voor La Grange.** *Bal bij:* Tim. *Bekend:* dossier op Desk bijgewerkt tot 28-07; 3 items in de proefpostbus; oude mail in te halen tot ongeveer mei 2026; WhatsApp nog niet (gemeten 07-10). *Advies:* eerst één ronde met de hand op een kopie.
