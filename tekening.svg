@@ -20,16 +20,11 @@
 .arrow{stroke:#1f3550;stroke-width:2;fill:none;marker-end:url(#pijl)}.both{marker-start:url(#pijl)}.tip{fill:#1f3550}</style>
 <rect width="1280" height="1309" fill="#fbfcfb"/>
 <defs><marker id="pijl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="tip"/></marker></defs>
-<rect class="b vast" x="200" y="16" width="350" height="72" rx="0"/>
-<text class="lbl" x="214" y="42">Goal</text>
-<text class="sm" x="214" y="66">waar het project naartoe moet</text>
-<text class="xs" text-anchor="end" x="538" y="41">altijd</text>
-<rect class="b vast" x="570" y="16" width="350" height="72" rx="0"/>
-<text class="lbl" x="584" y="42">Foundation</text>
-<text class="sm" x="584" y="66">process · projectbeschrijving</text>
+<rect class="b vast" x="200" y="16" width="720" height="72" rx="0"/>
+<text class="lbl" x="214" y="42">Foundation</text>
+<text class="sm" x="214" y="66">goal · process · projectbeschrijving: waar het project naartoe moet en hoe</text>
 <text class="xs" text-anchor="end" x="908" y="41">altijd</text>
-<path class="arrow" d="M375,88 L375,102"/>
-<path class="arrow" d="M745,88 L745,102"/>
+<path class="arrow" d="M560,88 L560,102"/>
 <rect class="b out" x="940" y="104" width="140" height="897" rx="8"/>
 <text class="lbl" x="954" y="130">Dashboard</text>
 <text class="sm" x="954" y="154">viewer, HTML-pagina</text>

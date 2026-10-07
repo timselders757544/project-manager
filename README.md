@@ -45,7 +45,7 @@ Er komt alleen bij; "niets gevonden" is ook een regel. Het verwijst naar de lijs
 - Eén map met projecten; elk project is één repo. Geen repo per onderdeel.
 - Elk blokje van de tekening is een map of bestand in die repo.
 - Eén ronde is één commit; de diff is wat de analyse veranderde.
-- Geen pull requests. De snelle lijsten (besluiten, to-do's, mensen, logboek) wijzigt hij direct. Voor de planning en het project plan legt hij een voorstel klaar; de wijziging komt pas na Tims ja. Goal en foundation zijn alleen van Tim.
+- Geen pull requests. De snelle lijsten (besluiten, to-do's, mensen, logboek) wijzigt hij direct. Voor de planning en het project plan legt hij een voorstel klaar; de wijziging komt pas na Tims ja. Foundation is alleen van Tim.
 - Het dashboard is een viewer op alle onderdelen, een HTML-pagina die de repo leest; Tim hoeft GitHub niet in.
 - Buiten de repo: de postbus (data-items liggen bij de data-collector), de dossiers (blijven op Desk; hij leest ze en werkt ze zelf bij, en meldt dat in het logboek: trede 3, zie B30) en Tims to-do's (in Todoist; een wijziging daar komt als data-item via de post binnen).
 
@@ -67,9 +67,8 @@ projects/
 │   ├── viewer/             het sjabloon van de HTML-pagina
 │   └── VERSION
 ├── melk-en-meer/           één repo per project, geen script
-│   ├── goal.md             van Tim
-│   ├── foundation/         van Tim: process.md (het proces), projectbeschrijving
-│   ├── steering.md         van Tim: de projectsturing (postbusadres, ritme, mijlpaal, bronnen)
+│   ├── foundation/         van Tim: goal.md (het doel), process.md (het proces), projectbeschrijving
+│   ├── instructions.md     van Tim: de projectsturing (postbusadres, ritme, mijlpaal, bronnen)
 │   ├── planning.md · decisions.md · people.md · todos.md · log.md
 │   ├── notes.md            voor de AI zelf: wat we niet weten, de correcties van Tim
 │   ├── project-plan/       het uitgebreide plan in tekst, per versie
@@ -80,13 +79,13 @@ projects/
 ```
 
 - **Protocol, skills, template.** Het protocol zegt wanneer hij een onderdeel bijwerkt, de skill zegt hoe. Een nieuw project is de template kopiëren; het protocol begint bij een project zonder logboekregel met de skill `new-project`.
-- **Projectsturing.** Wat per project anders is staat in `steering.md`; het protocol leest dat als eerste.
-- **Trigger.** Een wekker buiten de repo, die alleen `engine/bin/round.sh <project>` aanroept: de data-collector na een nieuw data-item, en een dagwekker die per project een ronde start op het ritme uit `steering.md`.
-- **Wie schrijft.** `goal.md`, `foundation/` en `steering.md` zijn van Tim; de rest van de assistent; in `preparations/` maakt hij het bestand en schrijft Tim de status. `check.sh` kijkt het na.
+- **Projectsturing.** Wat per project anders is staat in `instructions.md`; het protocol leest dat als eerste.
+- **Trigger.** Een wekker buiten de repo, die alleen `engine/bin/round.sh <project>` aanroept: de data-collector na een nieuw data-item, en een dagwekker die per project een ronde start op het ritme uit `instructions.md`.
+- **Wie schrijft.** `foundation/` en `instructions.md` zijn van Tim; de rest van de assistent; in `preparations/` maakt hij het bestand en schrijft Tim de status. `check.sh` kijkt het na.
 
 ## Spelregels
 Overgenomen uit Tims tekst "Inrichting op GitHub" van 06-10-2026.
-1. **Eén schrijver per bestand.** Per bestand staat vast wie erin schrijft (de assistent, Tim). Een controle na elke ronde weigert als de assistent een bestand raakt dat niet van hem is, zoals goal en foundation.
+1. **Eén schrijver per bestand.** Per bestand staat vast wie erin schrijft (de assistent, Tim). Een controle na elke ronde weigert als de assistent een bestand raakt dat niet van hem is, zoals foundation.
 2. **Inhoud en machinerie gescheiden.** De project-repo bevat alleen inhoud: plan, besluiten, logboek. Protocol, viewer-bouwer en controles staan één keer apart (de engine); elk project noemt welke versie hij gebruikt.
 3. **Een voorstel is een bestand met een status.** Wat klaarligt voor Tim is één bestand per voorstel, met de precieze wijziging en een status: open, ja, pas aan, nee, doorgevoerd. Tims antwoord wordt erin geschreven; een nee blijft staan met de reden, zodat het niet terugkomt. Bij ja verandert de volgende ronde het echte bestand en noemt de commit het voorstel en wie besloot.
 4. **Het protocol staat in de repo.** De trigger zegt alleen: volg het protocol. Alles wat een ronde moet doen staat in dat ene bestand; de werkwijze veranderen is een bestand veranderen, met geschiedenis.
