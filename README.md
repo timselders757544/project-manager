@@ -50,43 +50,43 @@ Er komt alleen bij; "niets gevonden" is ook een regel. Het verwijst naar de lijs
 - Buiten de repo: de postbus (data-items liggen bij de data-collector), de dossiers (blijven op Desk; hij leest ze en werkt ze zelf bij, en meldt dat in het logboek: trede 3, zie B30) en Tims to-do's (in Todoist; een wijziging daar komt als data-item via de post binnen).
 
 ## De projectenmap
-Eén map met projecten. De machinerie staat één keer, in `engine/`; elk project is een repo met alleen inhoud. De namen zijn werknamen (zie Open).
+De machinerie staat één keer, als competence in Superpak (B40); elk project is een repo met alleen inhoud. Alle projecten draaien dezelfde versie. De namen zijn werknamen (zie Open).
 
 ```
+superpak-clean/40-competences/manage-project/   de engine: één keer, voor alle projecten
+├── manage-project.card.md  de kaart; elk project is een instelling ervan
+├── PROTOCOL.md             hoe een ronde gaat: kringloop, de vier vragen, logboek, wat mag
+├── skills/                 per onderdeel één: hoe het gevuld wordt, in welke vorm, wat er niet in hoort
+│   ├── new-project.md      kopieert de template, vraagt Tim doel, fundament en sturing
+│   └── threads.md · decisions.md · planning.md · people.md · todos.md · project-plan.md · preparations.md · log.md · analysis.md
+├── template/               het lege project: elke map en elk bestand, met kort wat erin hoort
+├── bin/
+│   ├── round.sh            start een verse sessie: "volg PROTOCOL.md voor projects/<naam>"
+│   ├── check.sh            de controle na de ronde: schrijver per bestand en de vorm uit de skill
+│   └── build-viewer.sh     bouwt het dashboard (HTML) uit de projectrepo
+└── viewer/                 het sjabloon van de HTML-pagina
+
 projects/
-├── engine/                 één keer, voor alle projecten; eigen repo
-│   ├── PROTOCOL.md         hoe een ronde gaat: kringloop, de vier vragen, logboek, wat mag
-│   ├── skills/             per onderdeel één: hoe het gevuld wordt, in welke vorm, wat er niet in hoort
-│   │   ├── new-project.md  kopieert de template, vraagt Tim doel, fundament en sturing
-│   │   └── threads.md · decisions.md · planning.md · people.md · todos.md · project-plan.md · preparations.md · log.md · analysis.md
-│   ├── template/           het lege project: elke map en elk bestand, met kort wat erin hoort
-│   ├── bin/
-│   │   ├── round.sh        start een verse sessie: "volg engine/PROTOCOL.md voor projects/<naam>"
-│   │   ├── check.sh        de controle na de ronde: schrijver per bestand en de vorm uit de skill
-│   │   └── build-viewer.sh bouwt het dashboard (HTML) uit de projectrepo
-│   ├── viewer/             het sjabloon van de HTML-pagina
-│   └── VERSION
 ├── melk-en-meer/           één repo per project, geen script
 │   ├── foundation/         van Tim: goal.md (het doel), process.md (het proces), projectbeschrijving
 │   ├── instructions.md     van Tim: de projectsturing (postbusadres, ritme, mijlpaal, bronnen)
 │   ├── threads.md · planning.md · decisions.md · people.md · todos.md · log.md
 │   ├── notes.md            voor de AI zelf: wat we niet weten, de correcties van Tim
 │   ├── project-plan/       het uitgebreide plan in tekst, per versie
-│   ├── preparations/       wat klaarligt voor Tim: één bestand per voorstel, met status
-│   └── engine-version
+│   └── preparations/       wat klaarligt voor Tim: één bestand per voorstel, met status
 ├── la-grange/              zelfde opbouw
 └── visie-op-noordeloos/
 ```
 
 - **Protocol, skills, template.** Het protocol zegt wanneer hij een onderdeel bijwerkt, de skill zegt hoe. Een nieuw project is de template kopiëren; het protocol begint bij een project zonder logboekregel met de skill `new-project`.
 - **Projectsturing.** Wat per project anders is staat in `instructions.md`; het protocol leest dat als eerste.
-- **Trigger.** De klok `613-round-starter` op de Mini, via een `round:`-regel, die alleen `engine/bin/round.sh <project>` aanroept: een korte ronde die de postbus nakijkt op een nieuw data-item, en een dagronde per project op het ritme uit `instructions.md` (B36).
+- **Trigger.** Twee wekkers op de Mini, die alleen een ronde voor één project starten: het event `intake.project arrives` in `604-trigger-activator` bij een nieuw data-item met projectlabel, en een dagronde per project via `613-round-starter` op het ritme uit `instructions.md` (B41).
 - **Wie schrijft.** `foundation/` en `instructions.md` zijn van Tim; de rest van de assistent; in `preparations/` maakt hij het bestand en schrijft Tim de status. `check.sh` kijkt het na.
 
 ## Spelregels
 Overgenomen uit Tims tekst "Inrichting op GitHub" van 06-10-2026.
 1. **Eén schrijver per bestand.** Per bestand staat vast wie erin schrijft (de assistent, Tim). Een controle na elke ronde weigert als de assistent een bestand raakt dat niet van hem is, zoals foundation.
-2. **Inhoud en machinerie gescheiden.** De project-repo bevat alleen inhoud: plan, besluiten, logboek. Protocol, viewer-bouwer en controles staan één keer apart (de engine); elk project noemt welke versie hij gebruikt.
+2. **Inhoud en machinerie gescheiden.** De project-repo bevat alleen inhoud: plan, besluiten, logboek. Protocol, viewer-bouwer en controles staan één keer apart (de engine, in Superpak); alle projecten draaien dezelfde versie (B40).
 3. **Een voorstel is een bestand met een status.** Wat klaarligt voor Tim is één bestand per voorstel, met de precieze wijziging en een status: open, ja, pas aan, nee, doorgevoerd. Tims antwoord wordt erin geschreven; een nee blijft staan met de reden, zodat het niet terugkomt. Bij ja verandert de volgende ronde het echte bestand en noemt de commit het voorstel en wie besloot.
 4. **Het protocol staat in de repo.** De trigger zegt alleen: volg het protocol. Alles wat een ronde moet doen staat in dat ene bestand; de werkwijze veranderen is een bestand veranderen, met geschiedenis.
 5. **Out there heeft een weekritme.** Eén keer per week naar buiten kijken, begrensd, met hooguit één voorstel.

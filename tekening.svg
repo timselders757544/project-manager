@@ -187,7 +187,7 @@
 <rect class="cel" x="442" y="1129" width="398" height="76" rx="6"/>
 <text class="vak" x="452" y="1153">2 Inhoud en machinerie gescheiden</text>
 <text class="xs" x="452" y="1175">de project-repo bevat alleen inhoud, geen script; protocol, viewer</text>
-<text class="xs" x="452" y="1194">en controles staan één keer apart, elk project noemt zijn versie</text>
+<text class="xs" x="452" y="1194">en controles staan één keer in Superpak, voor elk project gelijk</text>
 <rect class="cel" x="850" y="1129" width="398" height="76" rx="6"/>
 <text class="vak" x="860" y="1153">3 Een voorstel is een bestand met een status</text>
 <text class="xs" x="860" y="1175">open · ja · pas aan · nee · doorgevoerd; Tims antwoord wordt</text>
