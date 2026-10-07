@@ -51,6 +51,7 @@ Vorm van een regel:
 - **B39 · 07-10 · Tim.** Geld krijgt geen eigen lijst: elke geldzaak (een aanvraag, een fonds, een toezegging) is een thread in `threads.md`. *Waarom:* één plek per onderwerp; bij Melk en Meer staan "Overbrugging 2027" en "Geld uit het Groene Hart" al als thread (gemeten 07-10). *Bron:* gesprek 07-10, "Geen eigen lijst" (was O04).
 - **B40 · 07-10 · Tim.** De engine komt in Superpak: één competence `40-competences/manage-project/` in superpak-clean, één kaart voor alle projecten; een project is een instelling van die kaart. Alle projecten draaien altijd dezelfde versie; `engine-version` vervalt. Elk project houdt zijn eigen repo met alleen inhoud. Herziet B35. *Waarom:* één bron (AGENTS.md regel 4); Tim neemt het verlies van een versie per project voor lief. *Bron:* gesprek 07-10, "b40 b41 ja", na zijn woord 09:07 via pilot-skeleton "een kaart, altijd zelfde versie, engine in superpak". Uitvoering: superpak-clean #110.
 - **B41 · 07-10 · Tim.** Nieuwe post met een projectlabel wekt de assistent via het event `intake.project arrives` in `604-trigger-activator` (de router roept `receive()` aan, zoals 501-mail); daarnaast één dagronde per project via `613-round-starter`. Herziet B36: geen pollende ronde meer. Of hij per item of per batch wekt, wordt afgestemd met pilot-experiment-2. *Waarom:* het huis kent dit event-patroon al; een receipt geeft geen event (gemeten door pilot-experiment-2, 604 sources.ts regel 674-695). *Bron:* gesprek 07-10, "b40 b41 ja". Uitvoering: superpak-clean #110 (O5.5, O5.6).
+- **B42 · 07-10 · Tim.** Voorlopig geen reserve bij de knoppen; spelregel 6 blijft staan als afspraak voor later, en de vraag komt terug zodra het experiment geslaagd is (O20). *Waarom:* in de proefweken kijkt Tim zelf elke dag mee en zet hij de assistent met één woord terug ("dossiers klaarleggen"). *Bron:* gesprek 07-10, "later" (was O12).
 
 ## Open
 
@@ -65,7 +66,7 @@ Vorm van een regel:
 - ~~**O09 · Draait de wekker op de Mini of als routine in claude.ai?**~~ Besloten: B36.
 - ~~**O10 · Leest hij Foundation altijd of als nodig?**~~ Besloten: B37.
 - ~~**O11 · Blijft het woord "draden"?**~~ Besloten: B38.
-- **O12 · Wie is de reserve bij de knoppen (B20, regel 6)?** *Bal bij:* Tim. *Advies:* iemand die Melk en Meer al kent; minimaal nodig: leesrecht op de repo en de viewer, en één regel uitleg hoe je de wekker uitzet (chat, 07-10).
+- ~~**O12 · Wie is de reserve bij de knoppen (B20, regel 6)?**~~ Besloten: B42.
 - **O13 · Proef voor La Grange.** *Bal bij:* Tim. *Bekend:* dossier op Desk bijgewerkt tot 28-07; 3 items in de proefpostbus; oude mail in te halen tot ongeveer mei 2026; WhatsApp nog niet (gemeten 07-10). *Advies:* eerst één ronde met de hand op een kopie.
 - **O14 · De analyse van "Inrichting op GitHub" afmaken: wat bij hen beter kan, wat wij al beter doen.** *Bal bij:* Tim.
 - **O15 · Volgende stap: de stand van Melk en Meer in deze vorm uitschrijven.** *Bal bij:* assistent, na Tims ja. *Advies:* eerst één ronde voor Melk en Meer met de hand: één trigger, de vier vragen, één logboekregel, één voorstel; pas daarna de engine bouwen, met wat die ronde liet zien (chat, 07-10).
