@@ -92,14 +92,5 @@ Overgenomen uit Tims tekst "Inrichting op GitHub" van 06-10-2026.
 5. **Out there heeft een weekritme.** Eén keer per week naar buiten kijken, begrensd, met hooguit één voorstel.
 6. **Twee mensen bij de knoppen.** Alles hangt nu aan Tim; er is altijd een reserve die erbij kan. Dit is een afspraak, geen bouwpunt.
 
-## Open
-- Mag Jev in de data-collector meekijken?
-- Bevat de postbus de inhoud of alleen een verwijzing?
-- Wie leegt de twijfelbak?
-- Krijgt geld een eigen lijst, of is het een draad?
-- Waar Tims eigen handelingen (strepen, versturen, corrigeren) in het logboek komen.
-- Mag hij in de dossiers op Desk schrijven, of legt hij een bijwerking klaar?
-- De namen van de mappen in de repo (de projectenmap hierboven gebruikt werknamen).
-- Is de engine een eigen repo of een map naast de projecten? Draait de wekker op de Mini of als routine in claude.ai?
-- Leest hij Foundation altijd of als nodig?
-- Volgende stap: de stand van Melk en Meer in deze vorm uitschrijven.
+## Besluiten
+Alle besluiten, genomen en open, staan in [decisions.md](decisions.md), in de vorm die elk project krijgt.
