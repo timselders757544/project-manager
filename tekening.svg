@@ -157,21 +157,24 @@
 <rect class="b fast" x="216" y="855" width="688" height="134" rx="8"/>
 <text class="lbl" x="230" y="881">Logboek</text>
 <text class="sm" x="312" y="881">één regel per ronde · er komt alleen bij · niets gevonden is ook een regel</text>
-<rect class="cel" x="230" y="893" width="125" height="58" rx="6"/>
-<text class="vak" x="240" y="916">1 Trigger</text>
-<text class="xs" x="240" y="938">waardoor</text>
-<rect class="cel" x="363.75" y="893" width="125" height="58" rx="6"/>
-<text class="vak" x="373.75" y="916">2 Gelezen</text>
-<text class="xs" x="373.75" y="938">welke data-items</text>
-<rect class="cel" x="497.5" y="893" width="125" height="58" rx="6"/>
-<text class="vak" x="507.5" y="916">3 Gezien</text>
-<text class="xs" x="507.5" y="938">de vier vragen</text>
-<rect class="cel" x="631.25" y="893" width="125" height="58" rx="6"/>
-<text class="vak" x="641.25" y="916">4 Bijgewerkt</text>
-<text class="xs" x="641.25" y="938">welke regel waar</text>
-<rect class="cel" x="765" y="893" width="125" height="58" rx="6"/>
-<text class="vak" x="775" y="916">5 Klaargelegd</text>
-<text class="xs" x="775" y="938">wat, voor Tim</text>
+<rect class="cel" x="230" y="893" width="106" height="58" rx="6"/>
+<text class="vak" x="237" y="916">1 Trigger</text>
+<text class="xs" x="237" y="938">waardoor</text>
+<rect class="cel" x="341" y="893" width="106" height="58" rx="6"/>
+<text class="vak" x="348" y="916">2 Gelezen</text>
+<text class="xs" x="348" y="938">welke items</text>
+<rect class="cel" x="452" y="893" width="106" height="58" rx="6"/>
+<text class="vak" x="459" y="916">3 Gezien</text>
+<text class="xs" x="459" y="938">de vier vragen</text>
+<rect class="cel" x="563" y="893" width="106" height="58" rx="6"/>
+<text class="vak" x="570" y="916">4 Bijgewerkt</text>
+<text class="xs" x="570" y="938">welke regel</text>
+<rect class="cel" x="674" y="893" width="106" height="58" rx="6"/>
+<text class="vak" x="681" y="916">5 Klaargelegd</text>
+<text class="xs" x="681" y="938">wat, voor Tim</text>
+<rect class="cel" x="785" y="893" width="106" height="58" rx="6"/>
+<text class="vak" x="792" y="916">6 Tim deed</text>
+<text class="xs" x="792" y="938">sinds de vorige</text>
 <text class="sm" x="230" y="975">verwijst naar de lijsten, kopieert niet · de volgende ronde begint bij de laatste regel</text>
 <rect class="b arch" x="20" y="1017" width="1240" height="212" rx="8"/>
 <text class="lbl" x="34" y="1043">Spelregels</text>

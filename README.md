@@ -38,7 +38,7 @@ Elke ronde begint bij een trigger: een nieuw data-item, of elke dag terug vanaf 
 - **Voor de AI zelf**: zijn eigen logboek, wat we niet weten, de spelregels en de correcties van Tim.
 
 ## Het logboek
-Eén logboek voor alles, één regel per ronde, in vijf vaste vakjes: 1 trigger (waardoor), 2 gelezen (welke data-items), 3 gezien (de vier vragen: wat verandert, verschil met plan, wat blijft uit, wat maak ik zelf af), 4 bijgewerkt (welke regel waar), 5 klaargelegd (wat, voor Tim).
+Eén logboek voor alles, één regel per ronde, in zes vaste vakjes: 1 trigger (waardoor), 2 gelezen (welke data-items), 3 gezien (de vier vragen: wat verandert, verschil met plan, wat blijft uit, wat maak ik zelf af), 4 bijgewerkt (welke regel waar), 5 klaargelegd (wat, voor Tim), 6 Tim deed (wat Tim sinds de vorige ronde deed: streepte, verstuurde, corrigeerde, met een verwijzing naar het voorstel). Tims antwoord zelf staat in het voorstelbestand.
 Er komt alleen bij; "niets gevonden" is ook een regel. Het verwijst naar de lijsten en kopieert niet. De volgende ronde begint bij de laatste regel.
 
 ## Op GitHub
