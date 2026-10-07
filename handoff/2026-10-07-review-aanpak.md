@@ -1,6 +1,8 @@
 # Handoff 2026-10-07: review van de aanpak
 
-Status: open
+Status: verwerkt
+
+Verwerkt op 2026-10-07: de adviezen bij O04, O09 en O12 en het nieuwe advies bij O15 staan in `decisions.md`, gemarkeerd als "(chat, 07-10)". O06 was al besloten als B29 (eerst een voorstel, trede 1, zo snel mogelijk naar trede 3), in lijn met het advies hier. O16 tot en met O20 zijn toegevoegd als open vragen; de eerdere O16 van Claude Code (hoe hij in een dossier schrijft) heet nu O21. In de README heet "De stand" nu "Lijsten van het project", omdat het kopje Besluiten al bestaat en naar `decisions.md` wijst. "Stand" bij de snelle lijsten werd "besluiten", "draden" verwijst naar O11, en `notes.md` staat in de projectmap voor "Voor de AI zelf". Er is geen besluit genomen. `goal.md`, `foundation/` en `steering.md` zijn niet aangeraakt.
 
 Gelezen: de versie van 07-10 07:16 (README, decisions.md, tekening.svg, tot en met ae3fab4). Daarna kwamen B24 tot en met B28 binnen; O03 is met B26 besloten en valt hier weg.
 Alles hieronder is advies van chat, een aanname tot Tim streept (B03).

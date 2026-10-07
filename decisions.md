@@ -45,16 +45,21 @@ Vorm van een regel:
 - ~~**O01 · Mag Jev in de data-collector meekijken?**~~ Besloten: B24.
 - ~~**O02 · Bevat de postbus de inhoud of alleen een verwijzing?**~~ Besloten: B25.
 - ~~**O03 · Wie leegt de twijfelbak?**~~ Besloten: B26.
-- **O04 · Krijgt geld een eigen lijst, of is het een draad?** *Bal bij:* Tim.
+- **O04 · Krijgt geld een eigen lijst, of is het een draad?** *Bal bij:* Tim. *Advies:* nu niet; geld is een kenmerk op besluiten en to-do's, waarop de viewer kan filteren; een eigen lijst pas als het programmavoorstel een begroting krijgt (chat, 07-10).
 - ~~**O05 · Waar komen Tims eigen handelingen (strepen, versturen, corrigeren)?**~~ Besloten: B27.
 - ~~**O06 · Schrijft hij in de dossiers op Desk, of legt hij een bijwerking klaar?**~~ Besloten: B29.
 - **O07 · De namen van de mappen in de repo.** *Bal bij:* Tim. *Bekend:* de projectenmap in de README gebruikt werknamen.
 - **O08 · Is de engine een eigen repo of een map naast de projecten?** *Bal bij:* Tim. *Advies:* een eigen repo, met een versie per project.
-- **O09 · Draait de wekker op de Mini of als routine in claude.ai?** *Bal bij:* Tim.
+- **O09 · Draait de wekker op de Mini of als routine in claude.ai?** *Bal bij:* Tim. *Advies:* op de Mini; aanname, te controleren: daar zijn de data-collector en Desk bereikbaar, en een routine in de cloud kan niet vanzelf bij lokale bestanden (chat, 07-10).
 - **O10 · Leest hij Foundation altijd of als nodig?** *Bal bij:* Tim. *Bekend:* de tekening zegt nu altijd.
 - **O11 · Blijft het woord "draden"?** *Bal bij:* Tim. *Bekend:* de README noemt het nog bij de lijsten van het project.
-- **O12 · Wie is de reserve bij de knoppen (B20, regel 6)?** *Bal bij:* Tim.
+- **O12 · Wie is de reserve bij de knoppen (B20, regel 6)?** *Bal bij:* Tim. *Advies:* iemand die Melk en Meer al kent; minimaal nodig: leesrecht op de repo en de viewer, en één regel uitleg hoe je de wekker uitzet (chat, 07-10).
 - **O13 · Proef voor La Grange.** *Bal bij:* Tim. *Bekend:* dossier op Desk bijgewerkt tot 28-07; 3 items in de proefpostbus; oude mail in te halen tot ongeveer mei 2026; WhatsApp nog niet (gemeten 07-10). *Advies:* eerst één ronde met de hand op een kopie.
 - **O14 · De analyse van "Inrichting op GitHub" afmaken: wat bij hen beter kan, wat wij al beter doen.** *Bal bij:* Tim.
-- **O15 · Volgende stap: de stand van Melk en Meer in deze vorm uitschrijven.** *Bal bij:* assistent, na Tims ja.
-- **O16 · Hoe schrijft hij na Tims ja in een dossier: een eigen bestand in de dossiermap, of via Superpak (`dossiers.update`, `files.place`)?** *Bal bij:* Tim. *Bekend:* het bestand 🗂️ in een dossiermap is een projectie die Superpak telkens opnieuw schrijft en die een wijziging met de hand overschrijft (`50-tools/513-dossiers/dossiers.card.md`, Service). *Advies:* via Superpak, dan blijft er één schrijver per bestand (B20, regel 1).
+- **O15 · Volgende stap: de stand van Melk en Meer in deze vorm uitschrijven.** *Bal bij:* assistent, na Tims ja. *Advies:* eerst één ronde voor Melk en Meer met de hand: één trigger, de vier vragen, één logboekregel, één voorstel; pas daarna de engine bouwen, met wat die ronde liet zien (chat, 07-10).
+- **O16 · Langs welk kanaal komt het dagbericht?** *Bal bij:* Tim. *Advies:* de laatste ronde van de dag bouwt de viewer en stuurt één korte melding met een link (mail of pushbericht); het kanaal staat in `steering.md`, het script in `engine/bin/` (chat, 07-10).
+- **O17 · Wie verstuurt na Tims ja?** *Bal bij:* Tim. *Advies:* de volgende ronde, als de status ja is en het voorstel een mail is, met Tim als afzender en in het logboek onder Klaargelegd; tot dat gebouwd is verstuurt Tim zelf vanuit het concept (chat, 07-10).
+- **O18 · Herziening van B14: past hij Tims to-do's in Todoist zelf aan?** *Bal bij:* Tim. *Advies:* nee, hij legt de wijziging klaar als voorstel, net als bij de dossiers (B29); B14 blijft staan, bij een ja komt er een nieuw besluit dat ernaar verwijst (chat, 07-10).
+- **O19 · Een plafond voor open voorstellen?** *Bal bij:* Tim. *Advies:* hooguit drie open voorstellen tegelijk die Tims ja nodig hebben; wordt het plafond vaak geraakt, dan pakt hij te weinig zelf op, en de meter houdt dat bij (chat, 07-10).
+- **O20 · Wanneer is het experiment geslaagd?** *Bal bij:* Tim. *Advies:* na drie weken Melk en Meer gaat meer dan de helft van de voorstellen ongewijzigd door, en besteedt Tim minder tijd aan het project dan nu (chat, 07-10).
+- **O21 · Hoe schrijft hij na Tims ja in een dossier: een eigen bestand in de dossiermap, of via Superpak (`dossiers.update`, `files.place`)?** *Bal bij:* Tim. *Bekend:* het bestand 🗂️ in een dossiermap is een projectie die Superpak telkens opnieuw schrijft en die een wijziging met de hand overschrijft (`50-tools/513-dossiers/dossiers.card.md`, Service). *Advies:* via Superpak, dan blijft er één schrijver per bestand (B20, regel 1).
