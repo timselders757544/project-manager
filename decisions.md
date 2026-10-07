@@ -34,12 +34,14 @@ Vorm van een regel:
 - **B23 · 06-10 · Tim.** De Vercel-storingsmail hoort bij Melk en Meer: een signaal dat de site eruit ligt, geen ruis. Lege titels zijn Tims eigen mails zonder onderwerp en blijven leeg. *Bron:* gesprek 06-10 (gaat over de postbus van Melk en Meer).
 
 - **B24 · 07-10 · Tim.** Jev kijkt mee in de data-collector, alleen bij wat de vaste regels niet plaatsen; elke keuze van Jev krijgt een merkje "gekozen door Jev"; twijfelt Jev, dan naar de twijfelbak. *Waarom:* minder in de twijfelbak, en een gok blijft zichtbaar als gok. In de proef van pilot-experiment-2 deed Jev al mee. *Bron:* gesprek 07-10 (was O01).
+- **B25 · 06-10 · Tim.** De postbus bevat de hele tekst én de verwijzing, veertien dagen lang. *Bron:* Tims woord in de sessie van pilot-experiment-2, 06-10 12:42 ("1. eens"), doorgegeven op 07-10; collector.ts doet het al zo (was O02).
+- **B26 · 06-10 · Tim.** De projectassistent leegt de twijfelbak: hij pakt wat van hem is en laat de rest liggen tot het vervalt; Tim hoort er niets van. In de twijfelbak komt alleen wat Jev niet weet; een onzekere keuze van Jev volgt Jev, met het merkje uit B24. *Bron:* Tims woord in de sessie van pilot-experiment-2, 06-10 12:42 ("3. eens") en 07-10 ±00:40 ("eens"), doorgegeven op 07-10 (was O03; preciseert "bij twijfel" in B24).
 
 ## Open
 
 - ~~**O01 · Mag Jev in de data-collector meekijken?**~~ Besloten: B24.
-- **O02 · Bevat de postbus de inhoud of alleen een verwijzing?** *Bal bij:* Tim. *Bekend:* in de proef bevat een data-item beide, `inhoud` en `verwijzing` (collector.ts).
-- **O03 · Wie leegt de twijfelbak?** *Bal bij:* Tim.
+- ~~**O02 · Bevat de postbus de inhoud of alleen een verwijzing?**~~ Besloten: B25.
+- ~~**O03 · Wie leegt de twijfelbak?**~~ Besloten: B26.
 - **O04 · Krijgt geld een eigen lijst, of is het een draad?** *Bal bij:* Tim.
 - **O05 · Waar komen Tims eigen handelingen (strepen, versturen, corrigeren)?** *Bal bij:* Tim. *Advies:* zijn antwoord in het voorstelbestand (B20, regel 3) en een vakje in het logboek.
 - **O06 · Schrijft hij in de dossiers op Desk, of legt hij een bijwerking klaar?** *Bal bij:* Tim.
