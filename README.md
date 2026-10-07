@@ -29,7 +29,7 @@ Elke ronde begint bij een trigger: een nieuw data-item, of elke dag terug vanaf 
 
 ## Lijsten van het project
 - **Lijsten van het project**:
-  - de draden (het woord is nog open: O11);
+  - de threads (`threads.md`): onderwerpen die een tijd doorlopen, elk met een eigenaar, een volgende stap en een datum;
   - het doel en de planning;
   - de besluiten, open en genomen, met de reden (dit blokje heette eerst Stand; beloftes van anderen zijn to-do's);
   - het project plan;
@@ -58,7 +58,7 @@ projects/
 │   ├── PROTOCOL.md         hoe een ronde gaat: kringloop, de vier vragen, logboek, wat mag
 │   ├── skills/             per onderdeel één: hoe het gevuld wordt, in welke vorm, wat er niet in hoort
 │   │   ├── new-project.md  kopieert de template, vraagt Tim doel, fundament en sturing
-│   │   └── decisions.md · planning.md · people.md · todos.md · project-plan.md · preparations.md · log.md · analysis.md
+│   │   └── threads.md · decisions.md · planning.md · people.md · todos.md · project-plan.md · preparations.md · log.md · analysis.md
 │   ├── template/           het lege project: elke map en elk bestand, met kort wat erin hoort
 │   ├── bin/
 │   │   ├── round.sh        start een verse sessie: "volg engine/PROTOCOL.md voor projects/<naam>"
@@ -69,7 +69,7 @@ projects/
 ├── melk-en-meer/           één repo per project, geen script
 │   ├── foundation/         van Tim: goal.md (het doel), process.md (het proces), projectbeschrijving
 │   ├── instructions.md     van Tim: de projectsturing (postbusadres, ritme, mijlpaal, bronnen)
-│   ├── planning.md · decisions.md · people.md · todos.md · log.md
+│   ├── threads.md · planning.md · decisions.md · people.md · todos.md · log.md
 │   ├── notes.md            voor de AI zelf: wat we niet weten, de correcties van Tim
 │   ├── project-plan/       het uitgebreide plan in tekst, per versie
 │   ├── preparations/       wat klaarligt voor Tim: één bestand per voorstel, met status
