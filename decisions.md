@@ -48,13 +48,14 @@ Vorm van een regel:
 - **B36 · 07-10 · Tim.** De wekker draait op de Mini, via `613-round-starter`: de ene klok die elke minuut tikt en de rondes start van kaarten met een `round:`-regel. De projectassistent krijgt dus geen eigen wekker maar een `round:`-regel. Die klok kent geen events: "na een nieuw data-item" wordt een ronde die op een vast ritme de postbus nakijkt. *Waarom:* daar zijn de data-collector en Desk bereikbaar, en er bestaat al één klok voor het hele huis. *Bron:* gesprek 07-10, "Draait op mini. Er is daar een service voor: iets met rond starter? Bevestig dit." Gemeten: klok actief, interval 60 seconden, laatste ronde 07-10 08:17 (was O09).
 - **B37 · 07-10 · Tim.** Elke ronde leest hij Foundation eerst en legt hij alles daarnaast. *Waarom:* Foundation is kort, verandert zelden en is de maatstaf voor de analyse en voor elk voorstel; zo valt een stuk dat het project ongemerkt een andere kant op trekt op. *Bron:* gesprek 07-10, "Altijd" (was O10).
 - **B38 · 07-10 · Tim.** De draden blijven en heten threads: elk project krijgt `threads.md`, met per thread een eigenaar, een volgende stap en een datum; op de tekening staat het blokje Threads bovenaan de lijsten. *Waarom:* het geeft in één blik welke onderwerpen lopen en bij wie de bal ligt; de projectmanager van Melk en Meer houdt ze al zo bij in `state/threads.md` (15 threads, gemeten 07-10). *Bron:* gesprek 07-10, "Wel draden: threads" (was O11).
+- **B39 · 07-10 · Tim.** Geld krijgt geen eigen lijst: elke geldzaak (een aanvraag, een fonds, een toezegging) is een thread in `threads.md`. *Waarom:* één plek per onderwerp; bij Melk en Meer staan "Overbrugging 2027" en "Geld uit het Groene Hart" al als thread (gemeten 07-10). *Bron:* gesprek 07-10, "Geen eigen lijst" (was O04).
 
 ## Open
 
 - ~~**O01 · Mag Jev in de data-collector meekijken?**~~ Besloten: B24.
 - ~~**O02 · Bevat de postbus de inhoud of alleen een verwijzing?**~~ Besloten: B25.
 - ~~**O03 · Wie leegt de twijfelbak?**~~ Besloten: B26.
-- **O04 · Krijgt geld een eigen lijst, of is het een draad?** *Bal bij:* Tim. *Advies:* nu niet; geld is een kenmerk op besluiten en to-do's, waarop de viewer kan filteren; een eigen lijst pas als het programmavoorstel een begroting krijgt (chat, 07-10).
+- ~~**O04 · Krijgt geld een eigen lijst, of is het een draad?**~~ Besloten: B39.
 - ~~**O05 · Waar komen Tims eigen handelingen (strepen, versturen, corrigeren)?**~~ Besloten: B27.
 - ~~**O06 · Schrijft hij in de dossiers op Desk, of legt hij een bijwerking klaar?**~~ Besloten: B29.
 - **O07 · De namen van de mappen in de repo.** *Bal bij:* Tim. *Bekend:* de projectenmap in de README gebruikt werknamen; `project-plan/` en `preparations/` liggen vast (B32), net als `planning.md` en `foundation/process.md` (B33).
