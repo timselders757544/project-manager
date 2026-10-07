@@ -33,9 +33,11 @@ Vorm van een regel:
 - **B22 · 07-10 · Tim.** In de engine een template om een nieuw project aan te maken, en per onderdeel een skill die zegt hoe het gevuld wordt. *Waarom:* elk project houdt dezelfde vorm, en de controle kan die vorm nakijken. *Bron:* gesprek 07-10, 451a32d.
 - **B23 · 06-10 · Tim.** De Vercel-storingsmail hoort bij Melk en Meer: een signaal dat de site eruit ligt, geen ruis. Lege titels zijn Tims eigen mails zonder onderwerp en blijven leeg. *Bron:* gesprek 06-10 (gaat over de postbus van Melk en Meer).
 
+- **B24 · 07-10 · Tim.** Jev kijkt mee in de data-collector, alleen bij wat de vaste regels niet plaatsen; elke keuze van Jev krijgt een merkje "gekozen door Jev"; twijfelt Jev, dan naar de twijfelbak. *Waarom:* minder in de twijfelbak, en een gok blijft zichtbaar als gok. In de proef van pilot-experiment-2 deed Jev al mee. *Bron:* gesprek 07-10 (was O01).
+
 ## Open
 
-- **O01 · Mag Jev in de data-collector meekijken?** *Bal bij:* Tim. *Bekend:* in de proef van pilot-experiment-2 kiest Jev al mee (gemeten 07-10).
+- ~~**O01 · Mag Jev in de data-collector meekijken?**~~ Besloten: B24.
 - **O02 · Bevat de postbus de inhoud of alleen een verwijzing?** *Bal bij:* Tim. *Bekend:* in de proef bevat een data-item beide, `inhoud` en `verwijzing` (collector.ts).
 - **O03 · Wie leegt de twijfelbak?** *Bal bij:* Tim.
 - **O04 · Krijgt geld een eigen lijst, of is het een draad?** *Bal bij:* Tim.
