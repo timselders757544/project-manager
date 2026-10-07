@@ -44,6 +44,7 @@ Vorm van een regel:
 - **B32 · 07-10 · Tim.** Het programmavoorstel staat in `project-plan/`, wat klaarligt voor Tim in `preparations/`; de skills heten `project-plan.md` en `preparations.md`. *Waarom:* `proposal/` en `proposals/` verschilden één letter en waren twee heel verschillende dingen. *Bron:* gesprek 07-10, "Proposals wordt Preparations, proposal wordt Project plan" (deel van O07; de andere namen blijven werknamen).
 - **B33 · 07-10 · Tim.** `project-plan/` is het uitgebreide plan in tekst; `plan.md` heet `planning.md`, met deadlines, mijlpalen en wat verder op tijd moet; het procesplan in `foundation/` heet `process.md`. In de tekening en de README heten de blokjes zoals hun map: Planning, Project plan, Preparations. *Waarom:* "plan" betekende drie dingen. *Bron:* gesprek 07-10, "Project plan is uitgebreide plan in tekst, plan.md wordt planning.md (inclusief deadlines, milestones, etc.), in foundation wordt het process" (deel van O07).
 - **B34 · 07-10 · Tim.** Goal gaat in Foundation: één map `foundation/` met `goal.md`, `process.md`, de projectbeschrijving en wat er later bij komt, en in de tekening één Foundation-box. `steering.md` heet `instructions.md` en blijft buiten `foundation/`: dat zijn instellingen voor wekker en postbus, geen inhoud. Beide zijn alleen van Tim. *Waarom:* alles wat van Tim is staat op één plek, en de controle heeft één regel nodig. *Bron:* gesprek 07-10, "Ja, steering wordt instructions.md" (op de vraag of Goal in de Foundation-box gaat, door Tim geopperd: "Misschien is zelf beter een Foundation box te maken met goal, proces, etc.").
+- **B35 · 07-10 · Tim.** De engine is een eigen repo met versies; elk project noemt in `engine-version` welke versie het gebruikt en stapt over wanneer het zover is. *Waarom:* een nieuwe werkwijze gaat eerst op één project, en terugzetten raakt alleen dat project. *Bron:* gesprek 07-10, "Eigen repo" (was O08).
 
 ## Open
 
@@ -54,7 +55,7 @@ Vorm van een regel:
 - ~~**O05 · Waar komen Tims eigen handelingen (strepen, versturen, corrigeren)?**~~ Besloten: B27.
 - ~~**O06 · Schrijft hij in de dossiers op Desk, of legt hij een bijwerking klaar?**~~ Besloten: B29.
 - **O07 · De namen van de mappen in de repo.** *Bal bij:* Tim. *Bekend:* de projectenmap in de README gebruikt werknamen; `project-plan/` en `preparations/` liggen vast (B32), net als `planning.md` en `foundation/process.md` (B33).
-- **O08 · Is de engine een eigen repo of een map naast de projecten?** *Bal bij:* Tim. *Advies:* een eigen repo, met een versie per project.
+- ~~**O08 · Is de engine een eigen repo of een map naast de projecten?** *Bal bij:* Tim. *Advies:* een eigen repo, met een versie per project.~~ Besloten: B35.
 - **O09 · Draait de wekker op de Mini of als routine in claude.ai?** *Bal bij:* Tim. *Advies:* op de Mini; aanname, te controleren: daar zijn de data-collector en Desk bereikbaar, en een routine in de cloud kan niet vanzelf bij lokale bestanden (chat, 07-10).
 - **O10 · Leest hij Foundation altijd of als nodig?** *Bal bij:* Tim. *Bekend:* de tekening zegt nu altijd.
 - **O11 · Blijft het woord "draden"?** *Bal bij:* Tim. *Bekend:* de README noemt het nog bij de lijsten van het project.
