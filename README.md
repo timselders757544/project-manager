@@ -80,7 +80,7 @@ projects/
 
 - **Protocol, skills, template.** Het protocol zegt wanneer hij een onderdeel bijwerkt, de skill zegt hoe. Een nieuw project is de template kopiëren; het protocol begint bij een project zonder logboekregel met de skill `new-project`.
 - **Projectsturing.** Wat per project anders is staat in `instructions.md`; het protocol leest dat als eerste.
-- **Trigger.** Een wekker buiten de repo, die alleen `engine/bin/round.sh <project>` aanroept: de data-collector na een nieuw data-item, en een dagwekker die per project een ronde start op het ritme uit `instructions.md`.
+- **Trigger.** De klok `613-round-starter` op de Mini, via een `round:`-regel, die alleen `engine/bin/round.sh <project>` aanroept: een korte ronde die de postbus nakijkt op een nieuw data-item, en een dagronde per project op het ritme uit `instructions.md` (B36).
 - **Wie schrijft.** `foundation/` en `instructions.md` zijn van Tim; de rest van de assistent; in `preparations/` maakt hij het bestand en schrijft Tim de status. `check.sh` kijkt het na.
 
 ## Spelregels
