@@ -26,7 +26,7 @@
 <text class="xs" text-anchor="end" x="538" y="41">altijd</text>
 <rect class="b vast" x="570" y="16" width="350" height="72" rx="0"/>
 <text class="lbl" x="584" y="42">Foundation</text>
-<text class="sm" x="584" y="66">procesplan · projectbeschrijving</text>
+<text class="sm" x="584" y="66">process · projectbeschrijving</text>
 <text class="xs" text-anchor="end" x="908" y="41">altijd</text>
 <path class="arrow" d="M375,88 L375,102"/>
 <path class="arrow" d="M745,88 L745,102"/>
@@ -86,11 +86,11 @@
 <rect class="group" x="209" y="194" width="226" height="649" rx="10"/>
 <rect class="group" x="685" y="194" width="226" height="649" rx="10"/>
 <rect class="b slow" x="216" y="318" width="212" height="64" rx="8"/>
-<text class="lbl" x="230" y="344">Plan</text>
-<text class="sm" x="230" y="368">mijlpalen</text>
+<text class="lbl" x="230" y="344">Planning</text>
+<text class="sm" x="230" y="368">deadlines, mijlpalen</text>
 <text class="xs" text-anchor="end" x="416" y="368">altijd</text>
 <rect class="b slow" x="692" y="318" width="212" height="64" rx="8"/>
-<text class="lbl" x="706" y="344">Plan</text>
+<text class="lbl" x="706" y="344">Planning</text>
 <text class="sm" x="706" y="368">nieuwe versie</text>
 <rect class="b fast" x="216" y="390" width="212" height="64" rx="8"/>
 <text class="lbl" x="230" y="416">Besluiten</text>
@@ -100,11 +100,11 @@
 <text class="lbl" x="706" y="416">Besluiten</text>
 <text class="sm" x="706" y="440">nieuwe versie</text>
 <rect class="b slow" x="216" y="462" width="212" height="64" rx="8"/>
-<text class="lbl" x="230" y="488">Programmavoorstel</text>
-<text class="sm" x="230" y="512">V1 of V2</text>
+<text class="lbl" x="230" y="488">Project plan</text>
+<text class="sm" x="230" y="512">uitgebreid, in tekst</text>
 <text class="xs" text-anchor="end" x="416" y="512">als nodig</text>
 <rect class="b slow" x="692" y="462" width="212" height="64" rx="8"/>
-<text class="lbl" x="706" y="488">Programmavoorstel</text>
+<text class="lbl" x="706" y="488">Project plan</text>
 <text class="sm" x="706" y="512">nieuwe versie (redactie)</text>
 <rect class="b slow" x="216" y="534" width="212" height="64" rx="8"/>
 <text class="lbl" x="230" y="560">Mensen en partijen</text>
@@ -141,15 +141,15 @@
 <text class="sm" x="230" y="273">uit de postbus</text>
 <text class="xs" text-anchor="end" x="416" y="252">altijd</text>
 <rect class="b out" x="692" y="202" width="212" height="108" rx="8"/>
-<text class="lbl" x="706" y="228">Klaar voor Tim</text>
-<text class="sm" x="706" y="252">elk voorstel één bestand</text>
-<text class="sm" x="706" y="273">met een status: mails,</text>
-<text class="sm" x="706" y="294">stukken, herinneringen</text>
+<text class="lbl" x="706" y="228">Preparations</text>
+<text class="sm" x="706" y="252">klaar voor Tim: elk voorstel</text>
+<text class="sm" x="706" y="273">één bestand met een status:</text>
+<text class="sm" x="706" y="294">mails, stukken, herinnering</text>
 <rect class="b think" x="460" y="394" width="200" height="157" rx="8"/>
 <text class="lbl" x="474" y="420">Analyse</text>
 <text class="sm" x="474" y="444">post naast de rest:</text>
 <text class="sm" x="474" y="465">1. wat verandert?</text>
-<text class="sm" x="474" y="486">2. verschil met plan?</text>
+<text class="sm" x="474" y="486">2. verschil met planning?</text>
 <text class="sm" x="474" y="507">3. wat blijft uit?</text>
 <text class="sm" x="474" y="528">4. wat maak ik zelf af?</text>
 <path class="arrow" d="M437,472 L458,472"/>

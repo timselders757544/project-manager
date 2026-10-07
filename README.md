@@ -20,32 +20,32 @@ Elke ronde begint bij een trigger: een nieuw data-item, of elke dag terug vanaf 
 ![Tims tekening van de projectassistent](tekening.svg)
 
 1. **Verzamelen en routeren**: de data-collector haalt alle bronnen op en legt elk stuk in de postbus van het project. Eerst vaste regels, daarna Jev, de rest naar een twijfelbak. Dit bouwt pilot-experiment-2.
-2. **Analyse**: bij elk stuk de vraag "wat verandert hierdoor?". Daarnaast elke dag een ronde: wat blijft uit, wat loopt achter op het plan?
+2. **Analyse**: bij elk stuk de vraag "wat verandert hierdoor?". Daarnaast elke dag een ronde: wat blijft uit, wat loopt achter op de planning?
 3. **Uitkomst**:
    - de to-do's: afspraken dat anderen iets doen, wie doet wat en wanneer (een herinnering staat eerst als concept klaar); Tims eigen to-do's staan in Todoist, daar leest hij ze en daar past hij ze aan;
-   - het plan met mijlpalen;
-   - een nieuwe versie van het programmavoorstel;
+   - de planning: deadlines, mijlpalen en wat verder op tijd moet;
+   - een nieuwe versie van het project plan, het uitgebreide plan in tekst;
    - een dashboard dat eerst laat zien wat er klaarligt.
 
 ## Lijsten van het project
 - **Lijsten van het project**:
   - de draden (het woord is nog open: O11);
-  - het doel en het plan;
+  - het doel en de planning;
   - de besluiten, open en genomen, met de reden (dit blokje heette eerst Stand; beloftes van anderen zijn to-do's);
-  - het programmavoorstel;
+  - het project plan;
   - de mensen en partijen, met wat ze willen en hoe hun naam ook geschreven of verstaan wordt.
 - **Bij elke regel**: bron en datum, feit of aanname, en bij wie de bal ligt.
 - **Voor de AI zelf**: zijn eigen logboek (`log.md`), de spelregels (in het protocol), en wat we niet weten en de correcties van Tim (`notes.md`).
 
 ## Het logboek
-Eén logboek voor alles, één regel per ronde, in zes vaste vakjes: 1 trigger (waardoor), 2 gelezen (welke data-items), 3 gezien (de vier vragen: wat verandert, verschil met plan, wat blijft uit, wat maak ik zelf af), 4 bijgewerkt (welke regel waar), 5 klaargelegd (wat, voor Tim), 6 Tim deed (wat Tim sinds de vorige ronde deed: streepte, verstuurde, corrigeerde, met een verwijzing naar het voorstel). Tims antwoord zelf staat in het voorstelbestand.
+Eén logboek voor alles, één regel per ronde, in zes vaste vakjes: 1 trigger (waardoor), 2 gelezen (welke data-items), 3 gezien (de vier vragen: wat verandert, verschil met de planning, wat blijft uit, wat maak ik zelf af), 4 bijgewerkt (welke regel waar), 5 klaargelegd (wat, voor Tim), 6 Tim deed (wat Tim sinds de vorige ronde deed: streepte, verstuurde, corrigeerde, met een verwijzing naar het voorstel). Tims antwoord zelf staat in het voorstelbestand.
 Er komt alleen bij; "niets gevonden" is ook een regel. Het verwijst naar de lijsten en kopieert niet. De volgende ronde begint bij de laatste regel.
 
 ## Op GitHub
 - Eén map met projecten; elk project is één repo. Geen repo per onderdeel.
 - Elk blokje van de tekening is een map of bestand in die repo.
 - Eén ronde is één commit; de diff is wat de analyse veranderde.
-- Geen pull requests. De snelle lijsten (besluiten, to-do's, mensen, logboek) wijzigt hij direct. Voor het plan en het programmavoorstel legt hij een voorstel klaar; de wijziging komt pas na Tims ja. Goal en foundation zijn alleen van Tim.
+- Geen pull requests. De snelle lijsten (besluiten, to-do's, mensen, logboek) wijzigt hij direct. Voor de planning en het project plan legt hij een voorstel klaar; de wijziging komt pas na Tims ja. Goal en foundation zijn alleen van Tim.
 - Het dashboard is een viewer op alle onderdelen, een HTML-pagina die de repo leest; Tim hoeft GitHub niet in.
 - Buiten de repo: de postbus (data-items liggen bij de data-collector), de dossiers (blijven op Desk; hij leest ze en werkt ze zelf bij, en meldt dat in het logboek: trede 3, zie B30) en Tims to-do's (in Todoist; een wijziging daar komt als data-item via de post binnen).
 
@@ -58,7 +58,7 @@ projects/
 │   ├── PROTOCOL.md         hoe een ronde gaat: kringloop, de vier vragen, logboek, wat mag
 │   ├── skills/             per onderdeel één: hoe het gevuld wordt, in welke vorm, wat er niet in hoort
 │   │   ├── new-project.md  kopieert de template, vraagt Tim doel, fundament en sturing
-│   │   └── decisions.md · plan.md · people.md · todos.md · project-plan.md · preparations.md · log.md · analysis.md
+│   │   └── decisions.md · planning.md · people.md · todos.md · project-plan.md · preparations.md · log.md · analysis.md
 │   ├── template/           het lege project: elke map en elk bestand, met kort wat erin hoort
 │   ├── bin/
 │   │   ├── round.sh        start een verse sessie: "volg engine/PROTOCOL.md voor projects/<naam>"
@@ -68,11 +68,11 @@ projects/
 │   └── VERSION
 ├── melk-en-meer/           één repo per project, geen script
 │   ├── goal.md             van Tim
-│   ├── foundation/         van Tim: procesplan, projectbeschrijving
+│   ├── foundation/         van Tim: process.md (het proces), projectbeschrijving
 │   ├── steering.md         van Tim: de projectsturing (postbusadres, ritme, mijlpaal, bronnen)
-│   ├── plan.md · decisions.md · people.md · todos.md · log.md
+│   ├── planning.md · decisions.md · people.md · todos.md · log.md
 │   ├── notes.md            voor de AI zelf: wat we niet weten, de correcties van Tim
-│   ├── project-plan/       het programmavoorstel, per versie
+│   ├── project-plan/       het uitgebreide plan in tekst, per versie
 │   ├── preparations/       wat klaarligt voor Tim: één bestand per voorstel, met status
 │   └── engine-version
 ├── la-grange/              zelfde opbouw
