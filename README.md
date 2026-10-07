@@ -58,7 +58,7 @@ projects/
 │   ├── PROTOCOL.md         hoe een ronde gaat: kringloop, de vier vragen, logboek, wat mag
 │   ├── skills/             per onderdeel één: hoe het gevuld wordt, in welke vorm, wat er niet in hoort
 │   │   ├── new-project.md  kopieert de template, vraagt Tim doel, fundament en sturing
-│   │   └── decisions.md · plan.md · people.md · todos.md · proposal.md · proposals.md · log.md · analysis.md
+│   │   └── decisions.md · plan.md · people.md · todos.md · project-plan.md · preparations.md · log.md · analysis.md
 │   ├── template/           het lege project: elke map en elk bestand, met kort wat erin hoort
 │   ├── bin/
 │   │   ├── round.sh        start een verse sessie: "volg engine/PROTOCOL.md voor projects/<naam>"
@@ -72,8 +72,8 @@ projects/
 │   ├── steering.md         van Tim: de projectsturing (postbusadres, ritme, mijlpaal, bronnen)
 │   ├── plan.md · decisions.md · people.md · todos.md · log.md
 │   ├── notes.md            voor de AI zelf: wat we niet weten, de correcties van Tim
-│   ├── proposal/           het programmavoorstel, per versie
-│   ├── proposals/          wat klaarligt voor Tim: één bestand per voorstel, met status
+│   ├── project-plan/       het programmavoorstel, per versie
+│   ├── preparations/       wat klaarligt voor Tim: één bestand per voorstel, met status
 │   └── engine-version
 ├── la-grange/              zelfde opbouw
 └── visie-op-noordeloos/
@@ -82,7 +82,7 @@ projects/
 - **Protocol, skills, template.** Het protocol zegt wanneer hij een onderdeel bijwerkt, de skill zegt hoe. Een nieuw project is de template kopiëren; het protocol begint bij een project zonder logboekregel met de skill `new-project`.
 - **Projectsturing.** Wat per project anders is staat in `steering.md`; het protocol leest dat als eerste.
 - **Trigger.** Een wekker buiten de repo, die alleen `engine/bin/round.sh <project>` aanroept: de data-collector na een nieuw data-item, en een dagwekker die per project een ronde start op het ritme uit `steering.md`.
-- **Wie schrijft.** `goal.md`, `foundation/` en `steering.md` zijn van Tim; de rest van de assistent; in `proposals/` maakt hij het bestand en schrijft Tim de status. `check.sh` kijkt het na.
+- **Wie schrijft.** `goal.md`, `foundation/` en `steering.md` zijn van Tim; de rest van de assistent; in `preparations/` maakt hij het bestand en schrijft Tim de status. `check.sh` kijkt het na.
 
 ## Spelregels
 Overgenomen uit Tims tekst "Inrichting op GitHub" van 06-10-2026.
