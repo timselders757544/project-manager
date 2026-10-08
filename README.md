@@ -53,8 +53,8 @@ Er komt alleen bij; "niets gevonden" is ook een regel. Het verwijst naar de lijs
 De machinerie staat één keer, als competence in Superpak (B40); elk project is een repo met alleen inhoud. Alle projecten draaien dezelfde versie. De namen zijn werknamen (zie Open).
 
 ```
-superpak-clean/40-competences/manage-project/   de engine: één keer, voor alle projecten
-├── manage-project.card.md  de kaart; elk project is een instelling ervan
+superpak-clean/40-competences/assist-project/   de engine: één keer, voor alle projecten
+├── assist-project.card.md  de kaart; elk project is een instelling ervan
 ├── PROTOCOL.md             hoe een ronde gaat: kringloop, de vier vragen, logboek, wat mag
 ├── skills/                 per onderdeel één: hoe het gevuld wordt, in welke vorm, wat er niet in hoort
 │   ├── new-project.md      kopieert de template, vraagt Tim doel, fundament en sturing
