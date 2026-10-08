@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1474" viewBox="0 0 1280 1474" role="img" aria-label="Containertekening van de projectassistent">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1546" viewBox="0 0 1280 1546" role="img" aria-label="Containertekening van de projectassistent">
 <style>text{fill:#1f3550;font-family:"Kalam","Comic Sans MS","Chalkboard SE",cursive}
 .lbl{font-weight:700;font-size:20px}.sm{font-size:16px}.xs{font-size:14px;fill:#6b7d8f}
 .clbl{font-size:15px;font-weight:700;fill:#6b7d8f}
@@ -18,14 +18,14 @@
 .group{fill:none;stroke:#6b7d8f;stroke-width:1}
 .container{fill:none;stroke:#6b7d8f;stroke-width:2;stroke-dasharray:8 6}
 .arrow{stroke:#1f3550;stroke-width:2;fill:none;marker-end:url(#pijl)}.both{marker-start:url(#pijl)}.tip{fill:#1f3550}</style>
-<rect width="1280" height="1474" fill="#fbfcfb"/>
+<rect width="1280" height="1546" fill="#fbfcfb"/>
 <defs><marker id="pijl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="tip"/></marker></defs>
 <rect class="b vast" x="200" y="16" width="720" height="72" rx="0"/>
 <text class="lbl" x="214" y="42">Foundation</text>
 <text class="sm" x="214" y="66">goal · process · projectbeschrijving: waar het project naartoe moet en hoe</text>
 <text class="xs" text-anchor="end" x="908" y="41">elke ronde eerst</text>
 <path class="arrow" d="M560,88 L560,102"/>
-<rect class="b out" x="940" y="104" width="140" height="1062" rx="8"/>
+<rect class="b out" x="940" y="104" width="140" height="1134" rx="8"/>
 <text class="lbl" x="954" y="130">Dashboard</text>
 <text class="sm" x="954" y="154">viewer, HTML-pagina</text>
 <text class="sm" x="954" y="250">• wat klaarligt</text>
@@ -36,7 +36,7 @@
 <path class="arrow" d="M913,256 L938,256"/>
 <path class="arrow" d="M913,360 L938,360"/>
 <path class="arrow" d="M913,565 L938,565"/>
-<rect class="b tim" x="1100" y="16" width="160" height="1150" rx="8"/>
+<rect class="b tim" x="1100" y="16" width="160" height="1222" rx="8"/>
 <text class="lbl" x="1114" y="42">Tim</text>
 <text class="sm" x="1114" y="66">geeft Foundation</text>
 <text class="sm" x="1114" y="87">en instructions</text>
@@ -73,14 +73,14 @@
 <text class="lbl" x="34" y="962">Dossiers</text>
 <text class="sm" x="34" y="986">archief op Desk</text>
 <path class="arrow both" d="M179,968 L214,968"/>
-<rect class="container" x="200" y="104" width="720" height="1062" rx="12"/>
+<rect class="container" x="200" y="104" width="720" height="1134" rx="12"/>
 <text class="clbl" x="216" y="124">Projectassistent, in de dossiermap op Desk, met git. Elke ronde:</text>
 <rect class="loop" x="216" y="134" width="688" height="30" rx="15"/>
 <text class="sm" x="232" y="155">wakker → lezen → analyseren → bijwerken → acties → rapporteren</text>
 <text class="clbl" x="216" y="186">Input: wat hij leest</text>
 <text class="clbl" x="692" y="186">Output: wat hij bijwerkt</text>
-<rect class="group" x="209" y="194" width="226" height="814" rx="10"/>
-<rect class="group" x="685" y="194" width="226" height="814" rx="10"/>
+<rect class="group" x="209" y="194" width="226" height="886" rx="10"/>
+<rect class="group" x="685" y="194" width="226" height="886" rx="10"/>
 <rect class="b fast" x="216" y="411" width="212" height="64" rx="8"/>
 <text class="lbl" x="230" y="437">Threads</text>
 <text class="sm" x="230" y="461">lopende onderwerpen</text>
@@ -146,6 +146,10 @@
 <text class="lbl" x="706" y="962">Dossiers</text>
 <text class="xs" text-anchor="end" x="892" y="962">zelf</text>
 <text class="sm" x="706" y="986">als enige schrijver</text>
+<rect class="b arch ext" x="692" y="1008" width="212" height="64" rx="8"/>
+<text class="lbl" x="706" y="1034">Documenten</text>
+<text class="xs" text-anchor="end" x="892" y="1034">zelf</text>
+<text class="sm" x="706" y="1058">uit bijlagen, in dossier</text>
 <rect class="b flow ext" x="216" y="202" width="212" height="201" rx="24"/>
 <text class="lbl" x="230" y="228">Nieuwe post</text>
 <text class="sm" x="230" y="252">data-items</text>
@@ -172,69 +176,69 @@
 <text class="sm" x="474" y="621">4. wat maak ik zelf af?</text>
 <path class="arrow" d="M437,565 L458,565"/>
 <path class="arrow" d="M662,565 L683,565"/>
-<rect class="b fast" x="216" y="1020" width="688" height="134" rx="8"/>
-<text class="lbl" x="230" y="1046">Logboek</text>
-<text class="sm" x="312" y="1046">één regel per ronde · er komt alleen bij · niets gevonden is ook een regel</text>
-<rect class="cel" x="230" y="1058" width="106" height="58" rx="6"/>
-<text class="vak" x="237" y="1081">1 Trigger</text>
-<text class="xs" x="237" y="1103">waardoor</text>
-<rect class="cel" x="341" y="1058" width="106" height="58" rx="6"/>
-<text class="vak" x="348" y="1081">2 Gelezen</text>
-<text class="xs" x="348" y="1103">welke items</text>
-<rect class="cel" x="452" y="1058" width="106" height="58" rx="6"/>
-<text class="vak" x="459" y="1081">3 Gezien</text>
-<text class="xs" x="459" y="1103">de vier vragen</text>
-<rect class="cel" x="563" y="1058" width="106" height="58" rx="6"/>
-<text class="vak" x="570" y="1081">4 Bijgewerkt</text>
-<text class="xs" x="570" y="1103">welke regel</text>
-<rect class="cel" x="674" y="1058" width="106" height="58" rx="6"/>
-<text class="vak" x="681" y="1081">5 Klaargelegd</text>
-<text class="xs" x="681" y="1103">wat, voor Tim</text>
-<rect class="cel" x="785" y="1058" width="106" height="58" rx="6"/>
-<text class="vak" x="792" y="1081">6 Tim deed</text>
-<text class="xs" x="792" y="1103">sinds de vorige</text>
-<text class="sm" x="230" y="1140">verwijst naar de lijsten, kopieert niet · de volgende ronde begint bij de laatste regel</text>
-<rect class="b arch" x="20" y="1182" width="1240" height="212" rx="8"/>
-<text class="lbl" x="34" y="1208">Spelregels</text>
-<rect class="cel" x="34" y="1222" width="398" height="76" rx="6"/>
-<text class="vak" x="44" y="1246">1 Eén schrijver per bestand</text>
-<text class="xs" x="44" y="1268">per bestand staat wie erin schrijft; een controle na elke</text>
-<text class="xs" x="44" y="1287">ronde weigert wat de assistent buiten zijn bestanden raakt</text>
-<rect class="cel" x="442" y="1222" width="398" height="76" rx="6"/>
-<text class="vak" x="452" y="1246">2 Inhoud en machinerie gescheiden</text>
-<text class="xs" x="452" y="1268">de project-repo bevat alleen inhoud, geen script; protocol, viewer</text>
-<text class="xs" x="452" y="1287">en controles staan één keer in Superpak, voor elk project gelijk</text>
-<rect class="cel" x="850" y="1222" width="398" height="76" rx="6"/>
-<text class="vak" x="860" y="1246">3 Een voorstel is een bestand met een status</text>
-<text class="xs" x="860" y="1268">open · ja · pas aan · nee · doorgevoerd · vervallen; Tims</text>
-<text class="xs" x="860" y="1287">antwoord wordt erin geschreven, een nee met de reden</text>
-<rect class="cel" x="34" y="1306" width="398" height="76" rx="6"/>
-<text class="vak" x="44" y="1330">4 Het protocol staat in de repo</text>
-<text class="xs" x="44" y="1352">de trigger zegt alleen: volg het protocol; de werkwijze</text>
-<text class="xs" x="44" y="1371">veranderen is een bestand veranderen, met geschiedenis</text>
-<rect class="cel" x="442" y="1306" width="398" height="76" rx="6"/>
-<text class="vak" x="452" y="1330">5 Out there heeft een weekritme</text>
-<text class="xs" x="452" y="1352">één keer per week naar buiten kijken, begrensd,</text>
-<text class="xs" x="452" y="1371">met hooguit één voorstel</text>
-<rect class="cel" x="850" y="1306" width="398" height="76" rx="6"/>
-<text class="vak" x="860" y="1330">6 Twee mensen bij de knoppen</text>
-<text class="xs" x="860" y="1352">alles hangt nu aan Tim; later een reserve die erbij kan</text>
-<text class="xs" x="860" y="1371">(afspraak voor later, nu nog niet: B42)</text>
-<rect class="b vast" x="20" y="1414" width="26" height="18" rx="0"/>
-<text class="sm" x="54" y="1429">Vast</text>
-<rect class="b slow" x="170" y="1414" width="26" height="18" rx="4"/>
-<text class="sm" x="204" y="1429">Langzaam</text>
-<rect class="b fast" x="320" y="1414" width="26" height="18" rx="4"/>
-<text class="sm" x="354" y="1429">Snel</text>
-<rect class="b flow" x="470" y="1414" width="26" height="18" rx="9"/>
-<text class="sm" x="504" y="1429">Stroom</text>
-<rect class="b think" x="620" y="1414" width="26" height="18" rx="4"/>
-<text class="sm" x="654" y="1429">Denkwerk</text>
-<rect class="b out" x="770" y="1414" width="26" height="18" rx="4"/>
-<text class="sm" x="804" y="1429">Uitkomst</text>
-<rect class="b arch" x="920" y="1414" width="26" height="18" rx="4"/>
-<text class="sm" x="954" y="1429">Archief</text>
-<rect class="b arch ext" x="1070" y="1414" width="26" height="18" rx="4"/>
-<text class="sm" x="1104" y="1429">Niet van hem</text>
-<text class="xs" x="20" y="1460">Kleur: hoe snel het verandert. Rechts in een inputvak: wanneer hij het leest. Rechts in een outputvak: schrijft hij zelf, of pas na Tims ja.</text>
+<rect class="b fast" x="216" y="1092" width="688" height="134" rx="8"/>
+<text class="lbl" x="230" y="1118">Logboek</text>
+<text class="sm" x="312" y="1118">één regel per ronde · er komt alleen bij · niets gevonden is ook een regel</text>
+<rect class="cel" x="230" y="1130" width="106" height="58" rx="6"/>
+<text class="vak" x="237" y="1153">1 Trigger</text>
+<text class="xs" x="237" y="1175">waardoor</text>
+<rect class="cel" x="341" y="1130" width="106" height="58" rx="6"/>
+<text class="vak" x="348" y="1153">2 Gelezen</text>
+<text class="xs" x="348" y="1175">welke items</text>
+<rect class="cel" x="452" y="1130" width="106" height="58" rx="6"/>
+<text class="vak" x="459" y="1153">3 Gezien</text>
+<text class="xs" x="459" y="1175">de vier vragen</text>
+<rect class="cel" x="563" y="1130" width="106" height="58" rx="6"/>
+<text class="vak" x="570" y="1153">4 Bijgewerkt</text>
+<text class="xs" x="570" y="1175">welke regel</text>
+<rect class="cel" x="674" y="1130" width="106" height="58" rx="6"/>
+<text class="vak" x="681" y="1153">5 Klaargelegd</text>
+<text class="xs" x="681" y="1175">wat, voor Tim</text>
+<rect class="cel" x="785" y="1130" width="106" height="58" rx="6"/>
+<text class="vak" x="792" y="1153">6 Tim deed</text>
+<text class="xs" x="792" y="1175">sinds de vorige</text>
+<text class="sm" x="230" y="1212">verwijst naar de lijsten, kopieert niet · de volgende ronde begint bij de laatste regel</text>
+<rect class="b arch" x="20" y="1254" width="1240" height="212" rx="8"/>
+<text class="lbl" x="34" y="1280">Spelregels</text>
+<rect class="cel" x="34" y="1294" width="398" height="76" rx="6"/>
+<text class="vak" x="44" y="1318">1 Eén schrijver per bestand</text>
+<text class="xs" x="44" y="1340">per bestand staat wie erin schrijft; een controle na elke</text>
+<text class="xs" x="44" y="1359">ronde weigert wat de assistent buiten zijn bestanden raakt</text>
+<rect class="cel" x="442" y="1294" width="398" height="76" rx="6"/>
+<text class="vak" x="452" y="1318">2 Inhoud en machinerie gescheiden</text>
+<text class="xs" x="452" y="1340">de project-repo bevat alleen inhoud, geen script; protocol, viewer</text>
+<text class="xs" x="452" y="1359">en controles staan één keer in Superpak, voor elk project gelijk</text>
+<rect class="cel" x="850" y="1294" width="398" height="76" rx="6"/>
+<text class="vak" x="860" y="1318">3 Een voorstel is een bestand met een status</text>
+<text class="xs" x="860" y="1340">open · ja · pas aan · nee · doorgevoerd · vervallen; Tims</text>
+<text class="xs" x="860" y="1359">antwoord wordt erin geschreven, een nee met de reden</text>
+<rect class="cel" x="34" y="1378" width="398" height="76" rx="6"/>
+<text class="vak" x="44" y="1402">4 Het protocol staat in de repo</text>
+<text class="xs" x="44" y="1424">de trigger zegt alleen: volg het protocol; de werkwijze</text>
+<text class="xs" x="44" y="1443">veranderen is een bestand veranderen, met geschiedenis</text>
+<rect class="cel" x="442" y="1378" width="398" height="76" rx="6"/>
+<text class="vak" x="452" y="1402">5 Out there heeft een weekritme</text>
+<text class="xs" x="452" y="1424">één keer per week naar buiten kijken, begrensd,</text>
+<text class="xs" x="452" y="1443">met hooguit één voorstel</text>
+<rect class="cel" x="850" y="1378" width="398" height="76" rx="6"/>
+<text class="vak" x="860" y="1402">6 Twee mensen bij de knoppen</text>
+<text class="xs" x="860" y="1424">alles hangt nu aan Tim; later een reserve die erbij kan</text>
+<text class="xs" x="860" y="1443">(afspraak voor later, nu nog niet: B42)</text>
+<rect class="b vast" x="20" y="1486" width="26" height="18" rx="0"/>
+<text class="sm" x="54" y="1501">Vast</text>
+<rect class="b slow" x="170" y="1486" width="26" height="18" rx="4"/>
+<text class="sm" x="204" y="1501">Langzaam</text>
+<rect class="b fast" x="320" y="1486" width="26" height="18" rx="4"/>
+<text class="sm" x="354" y="1501">Snel</text>
+<rect class="b flow" x="470" y="1486" width="26" height="18" rx="9"/>
+<text class="sm" x="504" y="1501">Stroom</text>
+<rect class="b think" x="620" y="1486" width="26" height="18" rx="4"/>
+<text class="sm" x="654" y="1501">Denkwerk</text>
+<rect class="b out" x="770" y="1486" width="26" height="18" rx="4"/>
+<text class="sm" x="804" y="1501">Uitkomst</text>
+<rect class="b arch" x="920" y="1486" width="26" height="18" rx="4"/>
+<text class="sm" x="954" y="1501">Archief</text>
+<rect class="b arch ext" x="1070" y="1486" width="26" height="18" rx="4"/>
+<text class="sm" x="1104" y="1501">Niet van hem</text>
+<text class="xs" x="20" y="1532">Kleur: hoe snel het verandert. Rechts in een inputvak: wanneer hij het leest. Rechts in een outputvak: schrijft hij zelf, of pas na Tims ja.</text>
 </svg>
